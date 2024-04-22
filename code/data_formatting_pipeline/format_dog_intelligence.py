@@ -12,7 +12,7 @@ path = os.getcwd()
 
 conf = SparkConf() \
     .setAppName("PostgreSQL Writing to Formatted Table") \
-    .set("spark.jars", path+"/../../.."+"/driver/postgresql-42.7.3.jar")
+    .set("spark.jars", path+"/../.."+"/driver/postgresql-42.7.3.jar")
 
 spark = SparkSession.builder \
     .config(conf=conf) \
@@ -22,7 +22,7 @@ spark = SparkSession.builder \
 Data collected in csv format reading
 """
 
-df = spark.read.format("csv").option("header", True).load(path+"/../../.."+"/data/landing_zone/dog_intelligence.csv")
+df = spark.read.format("csv").option("header", True).load(path+"/../.."+"/data/landing_zone/dog_intelligence.csv")
 
 """
 In order to correctly represent the obey column we must get rid of the percentage string
