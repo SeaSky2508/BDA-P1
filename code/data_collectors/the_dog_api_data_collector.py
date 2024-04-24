@@ -9,13 +9,28 @@ def main():
 
     ### En cas d'èxit, la guardem en una variable
     if response.status_code == 200:
-        breeds_list = response.content
+        breeds_list = response.json()
+        for breed in breeds_list:
+            del breed["weight"]
+            del breed["height"]
         
+        with open("dog_caract2.json", "w") as f:
+            breeds_list = json.dumps(breeds_list, indent=4)
+            f.write(breeds_list)
+
     ### En qualsevol altre cas, avisem que no ha funcionat
     else:
         print("Failed to download the file.")
     
-    #### Query a la api
+
+
+
+
+    #### Query a la api 
+
+    #### AL FINAL NO HO FAREM SERVIR PERQUÈ NO ENS CALEN LES IMATGES D'AQUESTA API
+    #### EN TENIM PROU AMB LA LLISTA DE RACES (Obtinguda a sobre)
+
     ### Definim url, paràmetres i clau de l'api
     headers = {
         "Content-Type": "application/json",

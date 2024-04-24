@@ -26,7 +26,7 @@ sc = spark.sparkContext
 Data collected in json format reading
 """
 
-df = sc.wholeTextFiles(path+"/../.."+"/data/landing_zone/dog_caract.json").map(lambda x:ast.literal_eval(x[1]))\
+df = sc.wholeTextFiles(path+"/../.."+"/data/landing_zone/dog_caract2.json").map(lambda x:ast.literal_eval(x[1]))\
                             .map(lambda x: json.dumps(x))
 
 df = spark.read.json(df)
@@ -47,8 +47,8 @@ df.write \
   .format("jdbc") \
   .option("url", jdbc_url) \
   .option("driver", "org.postgresql.Driver") \
-  .option("dbtable", "dog_caract_formatted") \
+  .option("dbtable", "dog_caract2_formatted") \
   .option("user", connectionProperties["user"]) \
   .option("password", connectionProperties["password"]) \
   .mode("append") \
-  .jdbc(jdbc_url,"dog_caract_formatted")
+  .jdbc(jdbc_url,"dog_caract2_formatted")
