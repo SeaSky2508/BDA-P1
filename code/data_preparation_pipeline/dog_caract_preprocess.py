@@ -40,19 +40,44 @@ df = spark.read \
     .load()
 
 
-total_missings, missing_cols = 0, []
-for name, dtype in df.dtypes:
-    try:
-        if dtype == 'string':
-            filtered_df = df.filter(col(name) == "n/a")
-        elif dtype == 'int':
-            filtered_df = df.filter(col(name) == 101)
-        class_count = filtered_df.groupBy(name).count()
-        number_of_missings = class_count.first()["count"]
-        missing_cols.append(name)
-        total_missings += number_of_missings
-    except TypeError:
-        print(f"No Missing Values found on variable {name}")
+try:
+    total_missings, missing_cols = 0, []
+    filtered_df = df.filter(col("classification") == "n/a")
+    class_count = filtered_df.groupBy('classification').count()
+    number_of_101 = class_count.first()["count"]
+    missing_cols.append("classification")
+    total_missings += number_of_101
+except TypeError:
+    print("No Missing Values found on variable classification")
+
+
+try:
+    filtered_df = df.filter(col("obey") == 101)
+    reps_upper_count = filtered_df.groupBy('obey').count()
+    number_of_101 = reps_upper_count.first()["count"]
+    missing_cols.append("obey")
+    total_missings += number_of_101
+except TypeError:
+    print("No Missing Values found on variable obey")
+
+
+try:
+    filtered_df = df.filter(col("reps_upper") == 101)
+    reps_upper_count = filtered_df.groupBy('reps_upper').count()
+    number_of_101 = reps_upper_count.first()["count"]
+    missing_cols.append("reps_upper")
+    total_missings += number_of_101
+except TypeError:
+    print("No Missing Values found on variable reps_upper")
+
+try:
+    filtered_df = df.filter(col("reps_lower") == 101)
+    reps_lower_count = filtered_df.groupBy('reps_lower').count()
+    number_of_101 = reps_lower_count.first()["count"]
+    missing_cols.append("reps_lower")
+    total_missings += number_of_101
+except TypeError:
+    print("No Missing Values found on variable reps_lower")
 
 
 print("Total Number of Rows before missings removal:", df.count())
