@@ -65,11 +65,11 @@ formatted_df3 = formatted_df2.select(*[udf(column).alias(name) if column == name
 Writing dataframe to existing postgres table with variables set in the format we wish them to be...
 """
 
-jdbc_url = "jdbc:postgresql://localhost:5432/bda_project1_db"
+jdbc_url = "jdbc:postgresql://localhost:5432/bda_p1"
 driver_class = "org.postgresql.Driver"
 user = "postgres"
-password = "hola123"
-connectionProperties = {"user": "postgres", "password": "hola123"}
+password = "postgres" #pel marcel era hola123
+connectionProperties = {"user": user, "password": password}
 
 
 formatted_df3.write \

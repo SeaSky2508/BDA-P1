@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)http://127.0.0.1/pgadmin4/erd/panel/2510927?sgid=1&sid=1&server_type=pg&did=16385&gen=true -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.t1u15qzo700-beta14{appearance:none;background-color:var(--rdg-background-color);block-size:100%;border:2px solid #ccc;box-sizing:border-box;color:var(--rdg-color);font-family:inherit;font-size:var(--rdg-font-size);inline-size:100%;padding-block:0;padding-inline:6px;vertical-align:top}.t1u15qzo700-beta14:focus{border-color:var(--rdg-selection-color);outline:none}.t1u15qzo700-beta14::placeholder{color:#999;opacity:1}</style><style type="text/css">.a3cv93f700-beta14{fill:currentColor}.a3cv93f700-beta14>path{transition:d .1s}</style><style type="text/css">.c1w9bbhr700-beta14{background-color:var(--rdg-selection-color);block-size:8px;cursor:move;inline-size:8px;inset-block-end:0;inset-inline-end:0;position:absolute}.c1w9bbhr700-beta14:hover{background-color:var(--rdg-background-color);block-size:16px;border:2px solid var(--rdg-selection-color);inline-size:16px}</style><style type="text/css">.cis5rrm700-beta14.rdg-cell{padding:0}</style><style type="text/css">.skuhp55700-beta14.r1upfr80700-beta14{line-height:var(--rdg-summary-row-height)}.skuhp55700-beta14.r1upfr80700-beta14>.cj343x0700-beta14{position:sticky}.sf8l5ub700-beta14>.cj343x0700-beta14{border-block-start:2px solid var(--rdg-summary-border-color)}</style><style type="text/css">.s8wc6fl700-beta14{inset-block-end:var(--rdg-summary-row-bottom);inset-block-start:var(--rdg-summary-row-top)}</style><style type="text/css">.g1yxluv3700-beta14:not([aria-selected=true]){background-color:var(--rdg-header-background-color)}.g1yxluv3700-beta14>.cj343x0700-beta14:not(:last-child):not(.c1wvphzh700-beta14){border-inline-end:none}</style><style type="text/css">.c6ra8a3700-beta14,.cq910m0700-beta14{background-color:#ccf}.cq910m0700-beta14.c6ra8a3700-beta14{background-color:#99f}</style><style type="text/css">.h10tskcx700-beta14{background-color:var(--rdg-header-background-color);display:contents;font-weight:700;line-height:var(--rdg-header-row-height)}.h10tskcx700-beta14>.cj343x0700-beta14{height:var(--rdg-header-row-height);inset-block-start:0;position:sticky;z-index:2}.h10tskcx700-beta14>.ch2wcw8700-beta14{z-index:3}</style><style type="text/css">.c6l2wv1700-beta14{touch-action:none}.c6l2wv1700-beta14:after{content:"";cursor:col-resize;inline-size:10px;inset-block-end:0;inset-block-start:0;inset-inline-end:0;position:absolute}</style><style type="text/css">.h1af91pe700-beta14{cursor:pointer;display:flex}.h1af91pe700-beta14:focus{outline:none}.hifiwer700-beta14{flex-grow:1;overflow:hidden;overflow:clip;text-overflow:ellipsis}</style><style type="text/css">.g1vzro7t700-beta14{outline:none}.c1fsqdic700-beta14{stroke:currentColor;stroke-width:1.5px;fill:transparent;margin-inline-start:4px;vertical-align:middle}.c1fsqdic700-beta14>path{transition:d .1s}</style><style type="text/css">.c2xai5k700-beta14{align-items:center;cursor:pointer;display:flex;inset:0;justify-content:center;margin-inline-end:1px;position:absolute}.c1nhzyev700-beta14{all:unset}.cdhtjkm700-beta14{background-color:var(--rdg-background-color);block-size:20px;border:2px solid var(--rdg-border-color);content:"";inline-size:20px}.c1nhzyev700-beta14:checked+.cdhtjkm700-beta14{background-color:var(--rdg-checkbox-color);outline:4px solid var(--rdg-background-color);outline-offset:-6px}.c1nhzyev700-beta14:focus+.cdhtjkm700-beta14{border-color:var(--rdg-checkbox-focus-color)}.cy65rq2700-beta14{cursor:default}.cy65rq2700-beta14 .cdhtjkm700-beta14{background-color:var(--rdg-checkbox-disabled-background-color);border-color:var(--rdg-checkbox-disabled-border-color)}</style><style type="text/css">.r1upfr80700-beta14{background-color:var(--rdg-background-color);display:contents;line-height:var(--rdg-row-height)}.r1upfr80700-beta14:hover{background-color:var(--rdg-row-hover-background-color)}.r1upfr80700-beta14[aria-selected=true]{background-color:var(--rdg-row-selected-background-color)}.r1upfr80700-beta14[aria-selected=true]:hover{background-color:var(--row-selected-hover-background-color)}.r190mhd3700-beta14{outline:2px solid var(--rdg-selection-color);outline-offset:-2px}.r139qu9m700-beta14:before{border-inline-start:2px solid var(--rdg-selection-color);content:"";display:inline-block;height:100%;inset-inline-start:0;position:sticky}</style><style type="text/css">.rnvodz5700-beta14{--rdg-color:#000;--rdg-border-color:#ddd;--rdg-summary-border-color:#aaa;--rdg-background-color:#fff;--rdg-header-background-color:#f9f9f9;--rdg-row-hover-background-color:#f5f5f5;--rdg-row-selected-background-color:#dbecfa;--row-selected-hover-background-color:#c9e3f8;--rdg-checkbox-color:#005194;--rdg-checkbox-focus-color:#61b8ff;--rdg-checkbox-disabled-border-color:#ccc;--rdg-checkbox-disabled-background-color:#ddd;--rdg-selection-color:#66afe9;--rdg-font-size:14px;background-color:var(--rdg-background-color);block-size:350px;border:1px solid var(--rdg-border-color);box-sizing:border-box;color:var(--rdg-color);color-scheme:var(--rdg-color-scheme,light dark);contain:strict;contain:size layout style paint;content-visibility:auto;display:grid;font-size:var(--rdg-font-size);overflow:auto;user-select:none}@supports not (contain:strict){.rnvodz5700-beta14{position:relative;z-index:0}}.rnvodz5700-beta14 *,.rnvodz5700-beta14 :after,.rnvodz5700-beta14 :before{box-sizing:inherit}.rnvodz5700-beta14:before{content:"";grid-column:1/-1;grid-row:1/-1}.rnvodz5700-beta14.rdg-dark{--rdg-color-scheme:dark;--rdg-color:#ddd;--rdg-border-color:#444;--rdg-summary-border-color:#555;--rdg-background-color:#212121;--rdg-header-background-color:#1b1b1b;--rdg-row-hover-background-color:#171717;--rdg-row-selected-background-color:#1a73bc;--row-selected-hover-background-color:#1768ab;--rdg-checkbox-color:#94cfff;--rdg-checkbox-focus-color:#c7e6ff;--rdg-checkbox-disabled-border-color:#000;--rdg-checkbox-disabled-background-color:#333}.rnvodz5700-beta14.rdg-light{--rdg-color-scheme:light}@media (prefers-color-scheme:dark){.rnvodz5700-beta14:not(.rdg-light){--rdg-color:#ddd;--rdg-border-color:#444;--rdg-summary-border-color:#555;--rdg-background-color:#212121;--rdg-header-background-color:#1b1b1b;--rdg-row-hover-background-color:#171717;--rdg-row-selected-background-color:#1a73bc;--row-selected-hover-background-color:#1768ab;--rdg-checkbox-color:#94cfff;--rdg-checkbox-focus-color:#c7e6ff;--rdg-checkbox-disabled-border-color:#000;--rdg-checkbox-disabled-background-color:#333}}.vlqv91k700-beta14.r1upfr80700-beta14{cursor:move}.f1lsfrzw700-beta14{grid-column:1/-1;pointer-events:none;z-index:4}</style><style type="text/css">.cj343x0700-beta14{background-color:inherit;border-block-end:1px solid var(--rdg-border-color);border-inline-end:1px solid var(--rdg-border-color);contain:strict;contain:size layout style paint;height:var(--rdg-row-height);outline:none;overflow:hidden;overflow:clip;padding-block:0;padding-inline:8px;text-overflow:ellipsis;white-space:nowrap}.cj343x0700-beta14[aria-selected=true]{outline:2px solid var(--rdg-selection-color);outline-offset:-2px}.csofj7r700-beta14 .cj343x0700-beta14{contain:content}.ch2wcw8700-beta14{position:sticky;z-index:1}.c1wvphzh700-beta14{box-shadow:calc(2px*var(--rdg-sign)) 0 5px -2px hsla(0,0%,53%,.3)}</style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>bda_p1/postgres@BDA_SERVER</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- To set pgAdmin4 shortcut icon in browser -->
+    <link rel="shortcut icon" href="http://127.0.0.1/pgadmin4/favicon.ico?ver=80500">
+    <style>
+        .pg-sp-container {
+            position: absolute;
+            min-width: 100%;
+            min-height: 100%;
+            background: rgba(#000,0.6);
+            z-index: 9999;
+            top: 0;
+        }
+        .pg-sp-container .pg-sp-content {
+            position: absolute;
+            width: 100%;
+            top: 40%;
+        }
+        .pg-sp-icon {
+          background: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='utf-8'?%3e%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 38 38' style='enable-background:new 0 0 38 38;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill:none;stroke:%23ebeef3;stroke-width:2;%7d .st1%7bfill:none;stroke:%23326690;stroke-width:2;%7d %3c/style%3e%3cg%3e%3cg transform='translate(1 1)'%3e%3ccircle class='st0' cx='18' cy='18' r='18'/%3e%3cpath class='st1' d='M36,18c0-9.9-8.1-18-18-18 '%3e%3canimateTransform accumulate='none' additive='replace' attributeName='transform' calcMode='linear' dur='0.7s' fill='remove' from='0 18 18' repeatCount='indefinite' restart='always' to='360 18 18' type='rotate'%3e%3c/animateTransform%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e") center center no-repeat;
+          height: 75px;
+          width: 100%;
+          text-align: center;
+        }
+        .pg-sp-text {
+          font-size: 20px;
+          text-align: center;
+          color: #fff;
+        }
+    </style>
+
+    <!-- Base template stylesheets -->
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <link type="text/css" rel="stylesheet" href="./pgadmin.style.css">
+        <link type="text/css" rel="stylesheet" href="./pgadmin.css" data-theme="standard">
+
+     <!--View specified stylesheets-->
+    <link type="text/css" rel="stylesheet" href="./browser.css">
+
+    <script type="application/javascript">
+        /* This is used to change publicPath of webpack at runtime */
+        window.resourceBasePath = "/pgadmin4/static/js/generated/";
+    </script>
+    <script type="application/javascript" src="./require.min.js"></script>
+    <!-- Base template scripts -->
+    <script type="application/javascript">
+            require.config({
+                baseUrl: '',
+                urlArgs: 'ver=80500',
+                waitSeconds: 0,
+                shim: {},
+                paths: {
+                    sources: "/pgadmin4/static/js",
+                    datagrid: "/pgadmin4/static/js/generated/datagrid",
+                    sqleditor: "/pgadmin4/static/js/generated/sqleditor",
+                    'pgadmin.browser.utils': "/pgadmin4/browser/" + "js/utils",
+                    'pgadmin.browser.endpoints': "/pgadmin4/browser/" + "js/endpoints",
+                    'pgadmin.browser.messages': "/pgadmin4/browser/" + "js/messages",
+                    'pgadmin.server.supported_servers': "/pgadmin4/browser/" + "server/supported_servers",
+                    'pgadmin.user_management.current_user': "/pgadmin4/user_management/" + "current_user",
+                    'translations': "/pgadmin4/tools/" + "translations",
+                    'security.pages': "/pgadmin4/static/js/generated/security.pages"
+                }
+            });
+
+    </script>
+    <script type="application/javascript" src="./vendor.react.js"></script>
+    <script type="application/javascript" src="./vendor.main.js"></script>
+    <script type="application/javascript" src="./vendor.others.js"></script>
+    <script type="application/javascript" src="./vendor.sqleditor.js"></script>
+    <script type="application/javascript" src="./pgadmin_commons.js"></script>
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="sources/generated/browser_nodes" src="./browser_nodes.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="sources/generated/erd_tool" src="./erd_tool.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pgadmin.browser.endpoints" src="./endpoints.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pgadmin.browser.messages" src="./messages.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pgadmin.browser.utils" src="./utils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pgadmin.user_management.current_user" src="./current_user.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="translations" src="./translations.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="sources/gettext" src="./gettext.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="sources/pgadmin" src="./pgadmin.js"></script><style data-jss="" data-meta="MuiSvgIcon">
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #3f51b5;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+</style><style data-jss="" data-meta="MuiSvgIcon">
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: none;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #326690;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #CC0000;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+</style><style data-jss="" data-meta="MuiTouchRipple">
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  animation: MuiTouchRipple-keyframes-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: MuiTouchRipple-keyframes-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: MuiTouchRipple-keyframes-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    -webkit-print-color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="MuiBox">
+
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiButton">
+.MuiButton-root {
+  color: #222;
+  padding: 2px 10px;
+  font-size: inherit;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: none;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: none;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(34, 34, 34, 0.04);
+}
+.MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiButton-root.Mui-disabled {
+  opacity: 0.6;
+}
+.MuiButton-root.MuiButton-sizeSmall, .MuiButton-root.MuiButton-outlinedSizeSmall, .MuiButton-root.MuiButton-containedSizeSmall {
+  height: 28px;
+  font-size: 0.875rem;
+}
+.MuiButton-root.MuiButton-sizeSmall .MuiSvgIcon-root, .MuiButton-root.MuiButton-outlinedSizeSmall .MuiSvgIcon-root, .MuiButton-root.MuiButton-containedSizeSmall .MuiSvgIcon-root {
+  height: 1.2rem;
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.Mui-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-text {
+  padding: 6px 8px;
+}
+.MuiButton-textPrimary {
+  color: #326690;
+}
+.MuiButton-textPrimary:hover {
+  background-color: rgba(50, 102, 144, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #f50057;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 2px 10px;
+}
+.MuiButton-outlined.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiButton-outlinedPrimary {
+  color: #326690;
+  border: 1px solid rgba(50, 102, 144, 0.5);
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #326690;
+  background-color: rgba(50, 102, 144, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlinedSecondary {
+  color: #f50057;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+}
+.MuiButton-outlinedSecondary:hover {
+  border: 1px solid #f50057;
+  background-color: rgba(245, 0, 87, 0.04);
+}
+.MuiButton-outlinedSecondary.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: none;
+  background-color: #e0e0e0;
+}
+.MuiButton-contained:hover {
+  box-shadow: none;
+  background-color: #d5d5d5;
+}
+.MuiButton-contained.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiButton-contained.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #326690;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #303f9f;
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #326690;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #fff;
+  background-color: #f50057;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: #c51162;
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #f50057;
+  }
+}
+.MuiButton-disableElevation {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:hover {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-focusVisible {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:active {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-disabled {
+  box-shadow: none;
+}
+.MuiButton-colorInherit {
+  color: inherit;
+  border-color: currentColor;
+}
+.MuiButton-textSizeSmall {
+  padding: 4px 5px;
+  font-size: 0.8125rem;
+}
+.MuiButton-textSizeLarge {
+  padding: 8px 11px;
+  font-size: 0.9375rem;
+}
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 9px;
+  font-size: 0.8125rem;
+}
+.MuiButton-outlinedSizeLarge {
+  padding: 7px 21px;
+  font-size: 0.9375rem;
+}
+.MuiButton-containedSizeSmall {
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+}
+.MuiButton-containedSizeLarge {
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+.MuiButton-startIcon {
+  display: inherit;
+  margin-left: -4px;
+  margin-right: 4px;
+}
+.MuiButton-startIcon.MuiButton-iconSizeSmall {
+  margin-left: -2px;
+}
+.MuiButton-endIcon {
+  display: inherit;
+  margin-left: 8px;
+  margin-right: -4px;
+}
+.MuiButton-endIcon.MuiButton-iconSizeSmall {
+  margin-right: -2px;
+}
+.MuiButton-iconSizeSmall > *:first-child {
+  font-size: 18px;
+}
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 20px;
+}
+.MuiButton-iconSizeLarge > *:first-child {
+  font-size: 22px;
+}
+</style><style data-jss="" data-meta="MuiButtonGroup">
+.MuiButtonGroup-root {
+  display: inline-flex;
+  border-radius: 4px;
+}
+.MuiButtonGroup-contained {
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.MuiButtonGroup-disableElevation {
+  box-shadow: none;
+}
+.MuiButtonGroup-fullWidth {
+  width: 100%;
+}
+.MuiButtonGroup-vertical {
+  flex-direction: column;
+}
+.MuiButtonGroup-grouped {
+  min-width: 40px;
+}
+.MuiButtonGroup-groupedHorizontal:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.MuiButtonGroup-groupedHorizontal:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.MuiButtonGroup-groupedVertical:not(:first-child) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.MuiButtonGroup-groupedVertical:not(:last-child) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.MuiButtonGroup-groupedTextHorizontal:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.23);
+}
+.MuiButtonGroup-groupedTextVertical:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+}
+.MuiButtonGroup-groupedTextPrimary:not(:last-child) {
+  border-color: rgba(50, 102, 144, 0.5);
+}
+.MuiButtonGroup-groupedTextSecondary:not(:last-child) {
+  border-color: rgba(245, 0, 87, 0.5);
+}
+.MuiButtonGroup-groupedOutlinedHorizontal:not(:first-child) {
+  margin-left: -1px;
+}
+.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child) {
+  border-right-color: transparent;
+}
+.MuiButtonGroup-groupedOutlinedVertical:not(:first-child) {
+  margin-top: -1px;
+}
+.MuiButtonGroup-groupedOutlinedVertical:not(:last-child) {
+  border-bottom-color: transparent;
+}
+.MuiButtonGroup-groupedOutlinedPrimary:hover {
+  border-color: #326690;
+}
+.MuiButtonGroup-groupedOutlinedSecondary:hover {
+  border-color: #f50057;
+}
+.MuiButtonGroup-groupedContained {
+  box-shadow: none;
+}
+.MuiButtonGroup-groupedContainedHorizontal:not(:last-child) {
+  border-right: 1px solid #ebeef3;
+}
+.MuiButtonGroup-groupedContainedHorizontal:not(:last-child).Mui-disabled {
+  border-right: 1px solid rgba(0, 0, 0, 0.26);
+}
+.MuiButtonGroup-groupedContainedVertical:not(:last-child) {
+  border-bottom: 1px solid #ebeef3;
+}
+.MuiButtonGroup-groupedContainedVertical:not(:last-child).Mui-disabled {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+.MuiButtonGroup-groupedContainedPrimary:not(:last-child) {
+  border-color: #303f9f;
+}
+.MuiButtonGroup-groupedContainedSecondary:not(:last-child) {
+  border-color: #c51162;
+}
+</style><style data-jss="" data-meta="MuiCssBaseline">
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+strong, b {
+  font-weight: 700;
+}
+body {
+  color: #222;
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: Roboto,"Helvetica Neue",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  background-color: #fff;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+body::backdrop {
+  background-color: #fff;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+textarea {
+  font-family: inherit;
+}
+iframe {
+  margin: 0;
+  padding: 0;
+}
+svg {
+  vertical-align: middle;
+}
+img {
+  vertical-align: middle;
+}
+.pickr, .pcr-app {
+  font-family: Roboto,"Helvetica Neue",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.pickr *:focus, .pcr-app *:focus {
+  outline: none !important;
+}
+.pickr .pcr-save, .pcr-app .pcr-save {
+  color: #fff!important;
+  border: 1px solid #326690;
+  border-radius: 4px !important;
+  background-color: #326690!important;
+}
+.pickr .pcr-clear, .pcr-app .pcr-clear {
+  color: #222!important;
+  border: 1px solid #bac1cd;
+  border-radius: 4px !important;
+  background-color: #fff!important;
+}
+.uplot .u-legend {
+  display: none;
+}
+.uplot-tooltip {
+  color: #fff;
+  display: block;
+  padding: 4px 8px;
+  z-index: 9999;
+  position: absolute;
+  font-size: 0.9em;
+  border-radius: 4px;
+  background-color: #222;
+}
+.uplot-tooltip .uplot-tooltip-label {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.dock-layout {
+  height: 100%;
+  border-top: 1px solid #dde0e6;
+}
+.dock-layout .dock-ink-bar {
+  color: #326690;
+  height: 2px;
+  background-color: #326690;
+}
+.dock-layout .dock-bar {
+  padding-left: 0;
+  border-bottom: 1px solid #dde0e6;
+  background-color: #fff;
+}
+.dock-layout .dock-panel {
+  border: none;
+}
+.dock-layout .dock-tab {
+  color: #222;
+  min-width: unset;
+  background: unset;
+  font-weight: unset;
+  margin-right: 0;
+  border-bottom: none;
+}
+.dock-layout .dock-extra-content {
+  align-items: center;
+  padding-right: 10px;
+}
+.dock-layout .dock-content-animated {
+  transition: none;
+}
+.dock-layout .dock-fbox {
+  z-index: 1060;
+}
+.dock-layout .dock-mbox {
+  z-index: 1080;
+}
+.dock-layout .drag-accept-reject::after {
+  content: ;
+}
+.dock-layout .dock-nav-more {
+  color: #222;
+}
+.dock-layout .dock-hbox .dock-divider, .dock-layout .dock-vbox .dock-hbox .dock-divider {
+  transform: scaleX(8);
+  flex-basis: 1px;
+}
+.dock-layout .dock-hbox .dock-divider::before, .dock-layout .dock-vbox .dock-hbox .dock-divider::before {
+  width: 1px;
+  height: 100%;
+  content: "";
+  display: block;
+  transform: scaleX(0.125);
+  background-color: #dde0e6;
+}
+.dock-layout .dock-vbox .dock-divider, .dock-layout .dock-hbox .dock-vbox .dock-divider {
+  transform: scaleY(8);
+  flex-basis: 1px;
+}
+.dock-layout .dock-vbox .dock-divider::before, .dock-layout .dock-hbox .dock-vbox .dock-divider::before {
+  width: 100%;
+  height: 1px;
+  content: "";
+  display: block;
+  transform: scaleY(0.125);
+  background-color: #dde0e6;
+}
+.dock-layout .dock-tab.dock-tab-active {
+  color: #326690;
+}
+.dock-layout .dock-tab::hover {
+  color: unset;
+}
+.dock-layout .dock-tab > div {
+  padding: 4px 10px;
+}
+.dock-layout .dock-tab .drag-initiator {
+  display: flex;
+}
+.dock-layout .dock-tab .drag-initiator .dock-tab-close-btn {
+  color: #222;
+  position: unset;
+  font-size: 18px;
+  transition: none;
+  margin-left: 8px;
+}
+.dock-layout .dock-tab .drag-initiator .dock-tab-close-btn::before {
+  top: -5px;
+  content: "\00d7";
+  position: relative;
+}
+.dock-layout .dock-tab > div:focus {
+  outline: 1px solid #326690;
+  outline-offset: -1px;
+}
+.dock-layout .dock-tab.dock-tab-active::hover {
+  color: #326690;
+}
+.dock-layout .dock-panel.dragging {
+  opacity: 0.6;
+}
+.dock-layout .dock-panel .dock {
+  border-radius: inherit;
+}
+.dock-layout .dock-panel.dock-style-dialogs {
+  border-radius: 4px;
+}
+.dock-layout .dock-panel .dock-tabpane {
+  color: #222;
+  background-color: #fff;
+}
+.dock-layout .dock-panel #id-schema-diff {
+  overflow-y: auto;
+}
+.dock-layout .dock-panel #id-results {
+  overflow-y: auto;
+}
+.dock-layout .dock-panel.dock-style-dialogs.dock-panel.dragging {
+  opacity: 1;
+  pointer-events: visible;
+}
+.dock-layout .dock-panel.dock-style-dialogs .dock-ink-bar {
+  height: 0px;
+}
+.dock-layout .dock-panel.dock-style-dialogs .dock-panel-drag-size-b-r {
+  z-index: 1020;
+}
+.dock-layout .dock-panel.dock-style-dialogs .dock-tab-active {
+  color: #222;
+  font-weight: bold;
+}
+.dock-layout .dock-panel.dock-style-dialogs .dock-nav-more {
+  display: none;
+}
+.dock-layout .dock-panel.dock-style-dialogs .dock-tab-active::hover {
+  color: #222;
+}
+.dock-layout .dock-panel.dock-style-object-explorer .dock-ink-bar {
+  height: 0px;
+}
+.dock-layout .dock-panel.dock-style-object-explorer .dock-tab-active {
+  color: #222;
+  cursor: move;
+}
+.dock-layout .dock-panel.dock-style-object-explorer .dock-tab-btn {
+  pointer-events: none;
+}
+.dock-layout .dock-panel.dock-style-object-explorer .dock-nav-more {
+  display: none;
+}
+.dock-layout .dock-panel.dock-style-object-explorer .dock-tab-active::hover {
+  color: #222;
+}
+.dock-layout .dock-panel.dock-style-playground:not([data-dockid="id-main"]) .dock-extra-content {
+  display: none;
+}
+.dock-layout .dock-bar .dock-nav-wrap {
+  cursor: move;
+}
+.dock-layout .dock-ink-bar.dock-ink-bar-animated {
+  transition: none !important;
+}
+.dock-dropdown {
+  z-index: 1004;
+}
+.dock-dropdown .dock-dropdown-menu {
+  color: #222;
+  border: 1px solid #dde0e6;
+  padding: 4px 0px;
+  background-color: #fff;
+}
+.dock-dropdown .dock-dropdown-menu-item {
+  color: #222;
+  display: flex;
+  padding: 3px 12px;
+  transition: none;
+}
+.dock-dropdown .dock-dropdown-menu-item.dock-dropdown-menu-item-active, .dock-dropdown .dock-dropdown-menu-item:hover {
+  color: #fff;
+  background-color: #326690;
+}
+.cm-editor {
+  color: #222;
+  height: 100%;
+  background-color: #fff;
+}
+.cm-editor.cm-focused {
+  outline: none;
+}
+.cm-editor .cm-scroller {
+  font-family: "Source Code Pro", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.cm-editor .cm-gutters {
+  color: #848ea0;
+  border-right: none;
+  background-color: #f3f5f9;
+}
+.cm-editor .cm-panels-bottom {
+  border: 0 !important;
+}
+.cm-editor .cm-error-highlight {
+  border-bottom: 2px dotted red;
+}
+.cm-editor .cm-panels-bottom .cm-search {
+  display: none;
+}
+.cm-editor .cm-gutters .cm-foldGutter {
+  color: #222;
+  padding: 0px;
+}
+.cm-editor .cm-gutters .cm-breakpoint-gutter {
+  cursor: pointer;
+  padding: 0px 2px;
+}
+.cm-editor .cm-gutters .cm-breakpoint-gutter .cm-gutterElement {
+  color: red;
+  font-size: 1.3em;
+  line-height: 1.1;
+}
+.cm-editor .cm-cursorLayer .cm-cursor, .cm-editor .cm-cursorLayer .cm-dropCursor {
+  border-left-color: #222;
+}
+.cm-editor .cm-scroller .cm-selectionLayer .cm-selectionBackground {
+  background: #d6effc;
+}
+.cm-editor .cm-scroller .cm-content[aria-readonly="true"] + .cm-cursorLayer {
+  display: none;
+}
+.cm-editor .cm-scroller .cm-content .cm-activeLine {
+  background-color: #EDF9FF;
+}
+.cm-editor .cm-scroller .cm-content .cm-activeLineManual {
+  background-color: #EDF9FF;
+}
+.cm-editor .cm-scroller .cm-content .tok-keyword {
+  color: #908;
+  font-weight: 600;
+}
+.cm-editor .cm-scroller .cm-content .tok-number {
+  color: #964;
+  font-weight: 600;
+}
+.cm-editor .cm-scroller .cm-content .tok-string {
+  color: #a11;
+}
+.cm-editor .cm-scroller .cm-content .tok-variable {
+  color: #222;
+}
+.cm-editor .cm-scroller .cm-content .tok-comment {
+  color: #a50;
+}
+.cm-editor .cm-scroller .cm-content .tok-operator {
+  color: #222;
+}
+.cm-editor .cm-scroller .cm-content .tok-punctuation {
+  color: #737373;
+}
+.cm-editor .cm-scroller .cm-content .tok-typeName {
+  color: #05a;
+}
+.cm-editor.cm-focused .cm-scroller > .cm-selectionLayer .cm-selectionBackground {
+  background: #d6effc;
+}
+.cm-tooltip {
+  color: #222!important;
+  border: 1px solid #dde0e6 !important;
+  font-size: 0.9em;
+  font-family: "Source Code Pro", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-color: #fff!important;
+}
+.cm-tooltip li[aria-selected="true"] {
+  color: #222!important;
+  background-color: #d6effc!important;
+}
+.cm-tooltip .pg-cm-autocomplete-icon {
+  width: 20px;
+  display: inline-block;
+  padding: 0px 8px;
+  margin-left: -2px;
+  background-position: 50%;
+}
+.cm-tooltip.pg-autocomp-loader {
+  position: absolute;
+  padding-right: 1px 12px 1px 2px;
+}
+</style><style data-jss="" data-meta="MuiTooltip">
+.MuiTooltip-popper {
+  top: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+.MuiTooltip-popperInteractive {
+  pointer-events: auto;
+}
+.MuiTooltip-popperArrow[x-placement*="bottom"] .MuiTooltip-arrow {
+  top: 0;
+  left: 0;
+  margin-top: -0.71em;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.MuiTooltip-popperArrow[x-placement*="top"] .MuiTooltip-arrow {
+  left: 0;
+  bottom: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: -0.71em;
+}
+.MuiTooltip-popperArrow[x-placement*="right"] .MuiTooltip-arrow {
+  left: 0;
+  width: 0.71em;
+  height: 1em;
+  margin-top: 4px;
+  margin-left: -0.71em;
+  margin-bottom: 4px;
+}
+.MuiTooltip-popperArrow[x-placement*="left"] .MuiTooltip-arrow {
+  right: 0;
+  width: 0.71em;
+  height: 1em;
+  margin-top: 4px;
+  margin-right: -0.71em;
+  margin-bottom: 4px;
+}
+.MuiTooltip-popperArrow[x-placement*="left"] .MuiTooltip-arrow::before {
+  transform-origin: 0 0;
+}
+.MuiTooltip-popperArrow[x-placement*="right"] .MuiTooltip-arrow::before {
+  transform-origin: 100% 100%;
+}
+.MuiTooltip-popperArrow[x-placement*="top"] .MuiTooltip-arrow::before {
+  transform-origin: 100% 0;
+}
+.MuiTooltip-popperArrow[x-placement*="bottom"] .MuiTooltip-arrow::before {
+  transform-origin: 0 100%;
+}
+.MuiTooltip-tooltip {
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+  max-width: 300px;
+  word-wrap: break-word;
+  font-family: Roboto,"Helvetica Neue",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 500;
+  line-height: 1.4em;
+  border-radius: 4px;
+  background-color: #222;
+}
+.MuiTooltip-tooltipArrow {
+  margin: 0;
+  position: relative;
+}
+.MuiTooltip-arrow {
+  color: #222;
+  width: 1em;
+  height: 0.71em;
+  overflow: hidden;
+  position: absolute;
+  box-sizing: border-box;
+}
+.MuiTooltip-arrow::before {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  content: "";
+  display: block;
+  transform: rotate(45deg);
+  background-color: currentColor;
+}
+.MuiTooltip-touch {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.14286em;
+}
+.MuiTooltip-tooltipPlacementLeft {
+  margin: 0 24px ;
+  transform-origin: right center;
+}
+@media (min-width:600px) {
+  .MuiTooltip-tooltipPlacementLeft {
+    margin: 0 14px;
+  }
+}
+.MuiTooltip-tooltipPlacementRight {
+  margin: 0 24px;
+  transform-origin: left center;
+}
+@media (min-width:600px) {
+  .MuiTooltip-tooltipPlacementRight {
+    margin: 0 14px;
+  }
+}
+.MuiTooltip-tooltipPlacementTop {
+  margin: 24px 0;
+  transform-origin: center bottom;
+}
+@media (min-width:600px) {
+  .MuiTooltip-tooltipPlacementTop {
+    margin: 14px 0;
+  }
+}
+.MuiTooltip-tooltipPlacementBottom {
+  margin: 24px 0;
+  transform-origin: center top;
+}
+@media (min-width:600px) {
+  .MuiTooltip-tooltipPlacementBottom {
+    margin: 14px 0;
+  }
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss8 {
+  border: 1px solid #326690;
+}
+.jss8.Mui-disabled {
+  color: #fff !important;
+  background-color: #326690;
+}
+.jss8:hover {
+  border-color: rgb(37, 76, 108);
+  background-color: rgb(37, 76, 108);
+}
+.jss9 {
+  color: #222;
+  border: 1px solid #bac1cd;
+  white-space: nowrap;
+  background-color: #fff;
+}
+.jss9.Mui-disabled {
+  color: #222 !important;
+  border-color: #bac1cd;
+}
+.jss9:hover {
+  color: #222;
+  border-color: #bac1cd;
+  background-color: #ebeef3;
+}
+.jss10 {
+  padding: 2px 4px;
+  min-width: 0;
+}
+.jss10.MuiButton-sizeSmall, .jss10.MuiButton-outlinedSizeSmall, .jss10.MuiButton-containedSizeSmall {
+  padding: 1px 4px;
+}
+.jss11 {
+  color: #222;
+  border-color: #bac1cd;
+  background-color: #fff;
+}
+.jss11.Mui-disabled {
+  color: #222;
+  border-color: #bac1cd;
+  background-color: #fff;
+}
+.jss11:hover {
+  color: #222;
+  border-color: #bac1cd;
+  background-color: #ebeef3;
+}
+.jss12.MuiButton-sizeSmall, .jss12.MuiButton-outlinedSizeSmall, .jss12.MuiButton-containedSizeSmall {
+  width: 20px;
+}
+.jss12.MuiButton-sizeSmall svg, .jss12.MuiButton-outlinedSizeSmall svg, .jss12.MuiButton-containedSizeSmall svg {
+  height: 0.8em;
+}
+.jss13 {
+  height: 24px;
+  padding: 2px 1px;
+  min-width: 24px;
+}
+.jss13 .MuiSvgIcon-root {
+  height: 0.8em;
+}
+.MuiButtonGroup-root .jss13 {
+  min-width: 30px;
+}
+.jss14 {
+  color: #222;
+  border: 0;
+  background-color: transparent;
+}
+.jss14:hover {
+  color: #222;
+  border: 0;
+  filter: brightness(85%);
+  background-color: inherit;
+}
+.jss14.Mui-disabled {
+  border: 0;
+}
+.jss15 {
+  color: #fff;
+  background-color: #326690;
+}
+.jss15:hover {
+  color: #fff;
+  border-color: rgb(37, 76, 108);
+  background-color: rgb(37, 76, 108);
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss25 .szh-menu {
+  color: #222;
+  border: 1px solid #dde0e6;
+  padding: 4px 0px;
+  z-index: 1005;
+  background-color: #fff;
+}
+.jss25 .szh-menu__divider {
+  margin: 0;
+  background: #dde0e6;
+}
+.jss25 .szh-menu__item {
+  display: flex;
+  padding: 3px 12px;
+}
+.jss25 .szh-menu__item:after {
+  right: 0.75rem;
+}
+.jss25 .szh-menu__item.szh-menu__item--active, .jss25 .szh-menu__item.szh-menu__item--hover {
+  color: #fff;
+  background-color: #326690;
+}
+.jss26 {
+  width: 1.3rem;
+}
+.jss27 {
+  visibility: hidden;
+}
+.jss28 {
+  font-size: 0.8em;
+  margin-left: auto;
+  padding-left: 12px;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss34 {
+  top: 0;
+  left: 0;
+  color: #fff;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  z-index: 1000;
+  position: absolute;
+  background-color: rgba(9, 13, 17, 0.6);
+}
+.jss35 {
+  color: #fff;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  .-mui-typography-root: [object Object];
+}
+.jss36 {
+  color: #fff;
+}
+.jss37 {
+  font-size: 16px;
+  margin-left: 0.5rem;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss44 {
+  color: #222;
+  width: 175px;
+  border: 1px solid #dde0e6;
+  position: relative;
+  font-size: 0.8em;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.jss44 div:last-child {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+.jss45 {
+  border-color: #326690;
+}
+.jss46 {
+  display: flex;
+  padding: 0.125rem 0.25rem;
+  border-bottom: 1px solid #dde0e6;
+}
+.jss47 {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #dde0e6;
+}
+.jss48 {
+  width: 100%;
+  display: flex;
+  padding: 0.125rem 0.25rem;
+  word-break: break-all;
+}
+.jss49 {
+  background: #ebeef3;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.jss50 {
+  margin: auto 0;
+  word-break: break-all;
+  font-weight: bold;
+}
+.jss51 {
+  color: #CC0000;
+}
+.jss52 {
+  color: #000;
+  margin-left: auto;
+  background-color: #eea236;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss5 {
+  gap: 4px;
+  display: flex;
+  padding: 2px 4px;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ebeef3;
+}
+.jss6 {
+  color: #222;
+  width: 450px;
+  border: 1px solid #bac1cd;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss29 {
+  color: #222;
+  width: 250px;
+  border: 1px solid #dde0e6;
+  margin-left: 8px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.jss30 {
+  color: #fff;
+  padding: 4px;
+  background-color: #326690;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.jss31 {
+  padding: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-bottom: 1px solid #dde0e6;
+  text-overflow: ellipsis;
+}
+.jss32 {
+  width: 100%;
+  border: 0;
+  display: block;
+}
+.jss33 {
+  padding: 4px;
+  border-top: 1px solid #dde0e6;
+  text-align: right;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss18 {
+  gap: 4px;
+  display: flex;
+  padding: 2px 4px;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #dde0e6;
+  background-color: #ebeef3;
+}
+.jss19 {
+  color: #222;
+  width: 450px;
+  border: 1px solid #bac1cd;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  width: 100%;
+  position: relative;
+  flex-grow: 1;
+  min-height: 0;
+}
+.jss2 {
+  color: #222;
+  width: 100%;
+  cursor: unset;
+  height: 100%;
+  flex-grow: 1;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml, %3Csvg width='100%25' viewBox='0 0 45 45' style='background-color:%23fff' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='smallGrid' width='15' height='15' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 15 0 L 0 0 0 15' fill='none' stroke='%23bac1cd' stroke-width='0.5'/%3E%3C/pattern%3E%3Cpattern id='grid' width='45' height='45' patternUnits='userSpaceOnUse'%3E%3Crect width='100' height='100' fill='url(%23smallGrid)'/%3E%3Cpath d='M 100 0 L 0 0 0 100' fill='none' stroke='%23bac1cd' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grid)' /%3E%3C/svg%3E%0A");
+}
+.jss3 {
+  overflow: auto !important;
+  background-image: none !important;
+}
+</style><style data-emotion="css" data-s=""></style></head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<style>
+    body {padding: 0px;}
+    #erd-tool-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    #erd-tool-container:not(:empty) + .pg-sp-container {
+        display: none;
+    }
+</style>
+<div id="erd-tool-container" class="d-flex flex-column"><div class="MuiBox-root jss4"><div class="MuiBox-root jss7 jss5"><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Connected" data-test="btn-conn-status" title="Connected" aria-label="Connected"><span class="MuiButton-label"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1033.2 1000" class="MuiSvgIcon-root" data-label="ConnectedIcon" style="height: 1rem;"><path d="M1029.1 70.6c5.5-5.5 5.5-11.1 0-16.6-16.6-11.1-38.8-33.2-55.4-49.9-5.5-5.5-11.1-5.5-16.6 0L840.8 120.4l-11.1-11.1c-72.1-83-194-99.6-293.7-44.2-33.2 22.2-66.5 49.9-94.2 83.1l-33.2 27.7c-5.5-11.1-16.6-22.2-27.7-27.7-11.1-11.1-5.5-5.5-11.1 0l-55.4 55.4c-5.5 5.5-5.5 11.1 0 16.6C353.2 259 392 297.8 430.7 331c5.5 5.5 5.5 11.1 0 16.6l-83.1 77.6c-66.5-60.9-116.3-116.3-138.5-133-5.5-11.1-11.1-11.1-16.6-5.5-16.6 22.2-33.2 38.8-49.9 55.4-5.5 5.5-5.5 11.1 0 16.6l33.2 33.2c-27.7 27.7-55.4 49.9-77.6 72-60.9 55.4-83.1 144-60.9 221.6 11.1 49.9 38.8 88.6 72 121.9 5.5 5.5 5.5 11.1 0 16.6L4 929.3c-5.5 5.5-5.5 11.1 0 16.6l49.9 49.9c5.5 5.5 11.1 5.5 16.6 0l88.6-88.6c5.5-5.5 16.6-22.2 27.7-22.2s16.6 11.1 27.7 22.2c88.6 88.6 232.7 88.6 321.3 0 27.7-27.7 49.9-55.4 77.6-83.1 11.1 16.6 22.2 22.2 33.2 33.2 11.1 11.1 5.5 5.5 11.1 0l49.9-49.9c5.5-5.5 11.1-11.1 0-16.6-27.7-27.7-66.5-60.9-105.3-105.3 27.7-27.7 55.4-55.4 77.6-83.1 5.5-5.5 11.1-5.5 16.6 0L813 718.8c5.5 5.5 11.1 5.5 11.1 0l55.4-55.4c5.5-5.5 5.5-5.5 0-11.1l-27.7-38.8c27.7-22.2 55.4-49.9 77.6-72 55.4-49.9 77.6-127.4 66.5-205-5.5-55.4-33.2-105.3-77.6-138.5-5.5-5.5-5.5-11.1 0-16.6 38.8-33.2 72-72 110.8-110.8M541.6 768.7c-22.2 22.2-44.3 49.9-72 72-55.4 55.4-144 55.4-199.4 0-33.2-27.8-48.6-44.9-99.7-99.7-57.2-53.5-66.5-144-16.6-199.4l16.6-16.6c22.2-22.2 44.3-44.3 66.5-72l304.7 304.7c5.4 5.5 5.4 5.5-.1 11m72-238.2L536 613.6 414.1 491.7l77.6-83.1c5.5-5.5 11.1-11.1 16.6 0l105.3 105.3c11.1 11 11.1 11 0 16.6m254.8-55.4-5.5 5.5-66.5 66.5-315.8-310.3 77.6-72c55.4-49.9 138.5-55.4 193.9-5.5 38.8 38.8 77.6 83.1 116.3 121.9 55.4 55.4 55.4 144 0 193.9"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined jss6 MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-test="btn-conn-title"><span class="MuiButton-label"><div class="MuiBox-root jss16"><div class="MuiBox-root jss17">bda_p1/postgres@BDA_SERVER</div></div></span><span class="MuiTouchRipple-root"></span></button></div></div><div class="MuiBox-root jss24 jss18"><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Load Project" aria-label="Load Project"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.59 4.59C10.21 4.21 9.7 4 9.17 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-1.41-1.41z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Save Project" aria-label="Save Project"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.59 3.59c-.38-.38-.89-.59-1.42-.59H5c-1.11 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7.83c0-.53-.21-1.04-.59-1.41l-2.82-2.83zM12 19c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm1-10H7c-1.1 0-2-.9-2-2s.9-2 2-2h6c1.1 0 2 .9 2 2s-.9 2-2 2z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 jss12 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="File" name="menu-saveas" aria-label="File" data-state="closed" title="File"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Generate SQL" aria-label="Generate SQL"><span class="MuiButton-label"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="18" height="18" viewBox="0 0 548.29 548.291" class="MuiSvgIcon-root" data-label="SQLFileIcon" style="height: 1rem;"><path d="M276.043 244.216c-24.575 0-38.741 24.087-38.741 53.862-.241 30.228 14.407 53.382 38.5 53.382 24.323 0 38.512-22.92 38.512-54.091-.001-29.066-13.71-53.153-38.271-53.153"></path><path d="M486.2 196.116h-13.164V132.59c0-.399-.064-.795-.116-1.2-.021-2.52-.824-4.997-2.551-6.96L364.656 3.677c-.031-.031-.064-.044-.085-.075-.629-.704-1.364-1.29-2.141-1.796-.231-.154-.462-.283-.704-.419a11.3 11.3 0 0 0-2.121-.893c-.199-.052-.377-.134-.576-.186-.8-.19-1.629-.308-2.467-.308H96.757C84.893 0 75.256 9.649 75.256 21.502v174.613H62.093c-16.967 0-30.733 13.756-30.733 30.733V386.66c0 16.961 13.766 30.731 30.733 30.731h13.163V526.79c0 11.854 9.637 21.501 21.501 21.501h354.777c11.853 0 21.502-9.647 21.502-21.501V417.392H486.2c16.977 0 30.729-13.771 30.729-30.731V226.849c.001-16.977-13.752-30.733-30.729-30.733M96.757 21.502H345.81v110.006c0 5.943 4.818 10.751 10.751 10.751h94.973v53.861H96.757zM353.033 376.96l-10.394 27.884c-22.666-6.619-41.565-13.479-62.828-22.445-3.527-1.418-7.317-2.132-11.094-2.362-35.909-2.352-69.449-28.819-69.449-80.778 0-47.711 30.236-83.623 77.71-83.623 48.675 0 75.351 36.854 75.351 80.317 0 36.142-16.766 61.638-37.785 71.091v.945c12.284 3.539 25.975 6.378 38.489 8.971m-280.121-6.844 7.328-29.764c9.69 4.96 24.554 9.915 39.917 9.915 16.525 0 25.271-6.84 25.271-17.228 0-9.928-7.56-15.597-26.691-22.442-26.457-9.217-43.696-23.858-43.696-47.014 0-27.163 22.68-47.948 60.231-47.948 17.954 0 31.184 3.791 40.623 8.03l-8.021 29.061c-6.375-3.076-17.711-7.564-33.3-7.564-15.599 0-23.163 7.079-23.163 15.357 0 10.15 8.977 14.646 29.533 22.447 28.108 10.394 41.332 25.023 41.332 47.464 0 26.699-20.557 49.365-64.253 49.365-18.179-.01-36.124-4.735-45.111-9.679m378.622 150.846H96.757v-103.57h354.777zm23.853-143.534h-99.455V218.231h36.158v128.97h63.297z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 jss12 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="SQL Options" name="menu-sql" aria-label="SQL Options" data-state="closed"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Download image" aria-label="Download image"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.9 13.98l2.1 2.53 3.1-3.99c.2-.26.6-.26.8.01l3.51 4.68c.25.33.01.8-.4.8H6.02c-.42 0-.65-.48-.39-.81L8.12 14c.19-.26.57-.27.78-.02z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Add Table" aria-label="Add Table"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Edit Table" aria-label="Edit Table"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17.46v3.04c0 .28.22.5.5.5h3.04c.13 0 .26-.05.35-.15L17.81 9.94l-3.75-3.75L3.15 17.1c-.1.1-.15.22-.15.36zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Clone Table" aria-label="Clone Table"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 1H4c-1.1 0-2 .9-2 2v13c0 .55.45 1 1 1s1-.45 1-1V4c0-.55.45-1 1-1h10c.55 0 1-.45 1-1s-.45-1-1-1zm.59 4.59l4.83 4.83c.37.37.58.88.58 1.41V21c0 1.1-.9 2-2 2H7.99C6.89 23 6 22.1 6 21l.01-14c0-1.1.89-2 1.99-2h6.17c.53 0 1.04.21 1.42.59zM15 12h4.5L14 6.5V11c0 .55.45 1 1 1z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Drop Table/Relation" aria-label="Drop Table/Relation"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="One-to-Many Relation" aria-label="One-to-Many Relation"><span class="MuiButton-label"><span style="letter-spacing: -1px;">1M</span></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Many-to-Many Relation" aria-label="Many-to-Many Relation"><span class="MuiButton-label"><span style="letter-spacing: -1px;">MM</span></span><span class="MuiTouchRipple-root"></span></button></div><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Fill Color" aria-label="toggle color picker dialog" role="button" title="Fill Color"><span class="MuiButton-label"><svg class="MuiSvgIcon-root jss20 jss22" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.56 8.94L8.32.7a.9959.9959 0 0 0-1.41 0c-.39.39-.39 1.02 0 1.41l1.68 1.68-5.15 5.15c-.59.59-.59 1.54 0 2.12l5.5 5.5c.29.29.68.44 1.06.44s.77-.15 1.06-.44l5.5-5.5c.59-.58.59-1.53 0-2.12zM5.21 10L10 5.21 14.79 10H5.21zM19 11.5s-2 2.17-2 3.5c0 1.1.9 2 2 2s2-.9 2-2c0-1.33-2-3.5-2-3.5z"></path><path fill-opacity=".36" d="M2 20h20c1.1 0 2 .9 2 2s-.9 2-2 2H2c-1.1 0-2-.9-2-2s.9-2 2-2z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Text Color" aria-label="toggle color picker dialog" role="button"><span class="MuiButton-label"><svg class="MuiSvgIcon-root jss21 jss23" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path fill-opacity=".36" d="M2 20h20c1.1 0 2 .9 2 2s-.9 2-2 2H2c-1.1 0-2-.9-2-2s.9-2 2-2z"></path><path d="M10.63 3.93L6.06 15.58c-.27.68.23 1.42.97 1.42.43 0 .82-.27.98-.68L8.87 14h6.25l.87 2.32c.15.41.54.68.98.68.73 0 1.24-.74.97-1.42L13.37 3.93C13.14 3.37 12.6 3 12 3c-.6 0-1.15.37-1.37.93zM9.62 12L12 5.67 14.38 12H9.62z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Add/Edit Note" aria-label="Add/Edit Note"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.41 9.41l-4.83-4.83c-.37-.37-.88-.58-1.41-.58H4c-1.1 0-2 .9-2 2v12.01c0 1.1.89 1.99 1.99 1.99H20c1.1 0 2-.9 2-2v-7.17c0-.53-.21-1.04-.59-1.42zM15 5.5l5.5 5.5H16c-.55 0-1-.45-1-1V5.5z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Auto Align" aria-label="Auto Align"><span class="MuiButton-label"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 512 512" class="MuiSvgIcon-root" data-label="MagicIcon" style="height: 1rem;"><path d="m224 96 16-32 32-16-32-16-16-32-16 32-32 16 32 16zM80 160l26.66-53.33L160 80l-53.34-26.67L80 0 53.34 53.33 0 80l53.34 26.67zm352 128-26.66 53.33L352 368l53.34 26.67L432 448l26.66-53.33L512 368l-53.34-26.67zm70.62-193.77L417.77 9.38C411.53 3.12 403.34 0 395.15 0s-16.38 3.12-22.63 9.38L9.38 372.52c-12.5 12.5-12.5 32.76 0 45.25l84.85 84.85c6.25 6.25 14.44 9.37 22.62 9.37 8.19 0 16.38-3.12 22.63-9.37l363.14-363.15c12.5-12.48 12.5-32.75 0-45.24M359.45 203.46l-50.91-50.91 86.6-86.6 50.91 50.91z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Show Details" aria-label="Show Details"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Cardinality Notation" name="menu-notation" aria-label="Cardinality Notation" data-state="closed" title="Cardinality Notation"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3h7zM7 9H4V5h3v4zm10 6h3v4h-3v-4zm0-10h3v4h-3V5z"></path></svg><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="margin-left: -10px;"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Zoom In" aria-label="Zoom In"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path><path d="M12 10h-2v2H9v-2H7V9h2V7h1v2h2v1z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Zoom to Fit" aria-label="Zoom to Fit"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3l2.3 2.3-2.89 2.87 1.42 1.42L18.7 6.7 21 9V3h-6zM3 9l2.3-2.3 2.87 2.89 1.42-1.42L6.7 5.3 9 3H3v6zm6 12l-2.3-2.3 2.89-2.87-1.42-1.42L5.3 17.3 3 15v6h6zm12-6l-2.3 2.3-2.87-2.89-1.42 1.42 2.89 2.87L15 21h6v-6z"></path></svg></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Zoom Out" aria-label="Zoom Out"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14zM7 9h5v1H7z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div><div role="group" class="MuiButtonGroup-root"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" data-label="Help" aria-label="Help" title="Help"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92c-.5.51-.86.97-1.04 1.69-.08.32-.13.68-.13 1.14h-2v-.5c0-.46.08-.9.22-1.31.2-.58.53-1.1.95-1.52l1.24-1.26c.46-.44.68-1.1.55-1.8-.13-.72-.69-1.33-1.39-1.53-1.11-.31-2.14.32-2.47 1.27-.12.37-.43.65-.82.65h-.3C8.4 9 8 8.44 8.16 7.88c.43-1.47 1.68-2.59 3.23-2.83 1.52-.24 2.97.55 3.87 1.8 1.18 1.63.83 3.38-.19 4.4z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div></div><div class="szh-menu-container jss25"><ul role="menu" aria-label="File Menu" tabindex="-1" data-state="closed" class="szh-menu szh-menu--state-closed szh-menu--dir-bottom" style="left: 0px; top: 0px;"><li role="menuitem" tabindex="-1" data-label="Save as" data-checked="false" class="szh-menu__item">Save as</li></ul></div><div class="szh-menu-container jss25"><ul role="menu" aria-label="SQL Options" tabindex="-1" data-state="closed" class="szh-menu szh-menu--state-closed szh-menu--dir-bottom" style="left: 0px; top: 0px;"><li role="menuitem" tabindex="-1" data-label="With DROP Table" data-checked="false" class="szh-menu__item"><svg class="MuiSvgIcon-root jss26" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-label="CheckIcon" style="visibility: hidden;"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>With DROP Table</li></ul></div><div class="szh-menu-container jss25"><ul role="menu" aria-label="Cardinality Notation" tabindex="-1" data-state="closed" class="szh-menu szh-menu--state-closed szh-menu--dir-bottom" style="left: 0px; top: 0px;"><li role="menuitem" tabindex="-1" data-label="Crow&#39;s Foot Notation" data-checked="true" class="szh-menu__item"><svg class="MuiSvgIcon-root jss26" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-label="CheckIcon" style=""><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>Crow's Foot Notation</li><li role="menuitem" tabindex="-1" data-label="Chen Notation" data-checked="false" class="szh-menu__item"><svg class="MuiSvgIcon-root jss26" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-label="CheckIcon" style="visibility: hidden;"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>Chen Notation</li></ul></div><div class="jss1" data-test="diagram-container"><div class="jss2 css-18f0176" style="background-size: 44.1px 44.1px; background-position: 66.14px 39.28px;"><svg class="css-12q0bj3" style="transform: translate(66.14px, 39.28px) scale(0.98);"></svg><div class="css-12q0bj3" style="transform: translate(66.14px, 39.28px) scale(0.98);"><div class="node css-nlpftr" data-nodeid="29d5178c-9962-4995-a0f7-5adae231a8a1" style="top: -15px; left: 15px;"><div class="jss44 jss45"><div class="jss46 jss49"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss9 jss10 jss11 jss13" tabindex="0" type="button" data-label="Show Details" aria-label="Show Details"><span class="MuiButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div><div class="jss46"><div style="padding: 0rem 0.125rem;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZlZTt9LmNscy0ye2ZpbGw6I2JkNDk0OTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmNvbGwtc2NoZW1hPC90aXRsZT48ZyBpZD0iXzIiIGRhdGEtbmFtZT0iMiI+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI0LjA1IiB5PSI0LjA1IiB3aWR0aD0iNy44OSIgaGVpZ2h0PSI3Ljg5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMy4zMSA4KSByb3RhdGUoLTQ1KSIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTgsM2w1LDVMOCwxMywzLDgsOCwzTTgsMS44OSwxLjg5LDgsOCwxNC4xMSwxNC4xMSw4LDgsMS44OVoiLz48cmVjdCBjbGFzcz0iY2xzLTIiIHg9IjYuNDQiIHk9IjYuNDQiIHdpZHRoPSIzLjExIiBoZWlnaHQ9IjMuMTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE5LjMxIDgpIHJvdGF0ZSgxMzUpIi8+PC9nPjwvc3ZnPgo=" crossorigin="anonymous"></div><div class="jss50" data-test="schema-name">public</div></div><div class="jss46"><div style="padding: 0rem 0.125rem;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2YyZjJmMjt9LmNscy0ye2ZpbGw6IzIxOTVlNzt9LmNscy0ze2ZpbGw6bm9uZTtzdHJva2U6I2MxY2JkNTtzdHJva2UtbGluZWpvaW46cm91bmQ7fS5jbHMtMywuY2xzLTR7c3Ryb2tlLXdpZHRoOjAuNzVweDt9LmNscy00e2ZpbGw6I2RlZjRmZDtzdHJva2U6IzIxOTVlNztzdHJva2UtbWl0ZXJsaW1pdDoxO308L3N0eWxlPjwvZGVmcz48dGl0bGU+dGFibGU8L3RpdGxlPjxnIGlkPSJfMiIgZGF0YS1uYW1lPSIyIj48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjIuOTIiIHk9IjMuNjUiIHdpZHRoPSIxMC4xNSIgaGVpZ2h0PSI4LjcxIiByeD0iMC41MyIgcnk9IjAuNTMiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xMi41NSw0YS4xNS4xNSwwLDAsMSwuMTUuMTV2Ny42NmEuMTUuMTUsMCwwLDEtLjE1LjE1SDMuNDVhLjE1LjE1LDAsMCwxLS4xNS0uMTVWNC4xN0EuMTUuMTUsMCwwLDEsMy40NSw0aDkuMW0wLS43NUgzLjQ1YS45LjksMCwwLDAtLjkuOXY3LjY2YS45LjksMCwwLDAsLjkuOWg5LjFhLjkuOSwwLDAsMCwuOS0uOVY0LjE3YS45LjksMCwwLDAtLjktLjlaIi8+PGxpbmUgY2xhc3M9ImNscy0zIiB4MT0iMy4zMiIgeTE9IjkuNDMiIHgyPSIxMi42OSIgeTI9IjkuNDMiLz48bGluZSBjbGFzcz0iY2xzLTMiIHgxPSI4LjAxIiB5MT0iNy4wOSIgeDI9IjgiIHkyPSIxMS45NyIvPjxsaW5lIGNsYXNzPSJjbHMtNCIgeDE9IjguMDEiIHkxPSI0LjAzIiB4Mj0iOCIgeTI9IjYuNTgiLz48bGluZSBjbGFzcz0iY2xzLTQiIHgxPSIxMi42OCIgeTE9IjYuNzQiIHgyPSIzLjMyIiB5Mj0iNi43NCIvPjwvZz48L3N2Zz4K" crossorigin="anonymous"></div><div class="jss50" data-test="table-name">dog_intelligence_formatted</div></div><div><div class="MuiBox-root jss53 jss47" data-test="column-row"><div class="MuiBox-root jss54"></div><div class="MuiBox-root jss55 jss48"><div style="padding: 0rem 0.125rem;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2UxZmZmOTt9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6I2FlY2VjODtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjAuNzVweDt9LmNscy0ze2ZpbGw6IzE2YTA4NTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmNvbHVtbjwvdGl0bGU+PGcgaWQ9Il8yIiBkYXRhLW5hbWU9IjIiPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNS4zIiB5PSIyLjE1IiB3aWR0aD0iNS40IiBoZWlnaHQ9IjExLjciIHJ4PSIxIiByeT0iMSIvPjxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9IjUuNzUiIHkxPSI4IiB4Mj0iMTAuMjUiIHkyPSI4Ii8+PGxpbmUgY2xhc3M9ImNscy0yIiB4MT0iNS43NSIgeTE9IjEwLjciIHgyPSIxMC4yNSIgeTI9IjEwLjciLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik02LDUuODNsMy45LDBWMTNhLjE1LjE1LDAsMCwxLS4xNS4xNUg2LjJBLjE1LjE1LDAsMCwxLDYsMTNWNS44M001LjMsNS4wOFYxM2EuOS45LDAsMCwwLC45LjlIOS44YS45LjksMCwwLDAsLjktLjlWNS4xbC01LjQsMFoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik05LjgsMi45QS4xNS4xNSwwLDAsMSwxMCwzVjVINlYzQS4xNS4xNSwwLDAsMSw2LjIsMi45SDkuOG0wLS43NUg2LjJhLjkuOSwwLDAsMC0uOS45djIuN2g1LjRWM2EuOS45LDAsMCwwLS45LS45WiIvPjwvZz48L3N2Zz4K" crossorigin="anonymous"></div><div class="MuiBox-root jss56"><span data-test="column-name">Breed</span>&nbsp;<span data-test="column-type">text</span></div></div><div class="MuiBox-root jss57"></div></div><div class="MuiBox-root jss58 jss47" data-test="column-row"><div class="MuiBox-root jss59"></div><div class="MuiBox-root jss60 jss48"><div style="padding: 0rem 0.125rem;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2UxZmZmOTt9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6I2FlY2VjODtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjAuNzVweDt9LmNscy0ze2ZpbGw6IzE2YTA4NTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmNvbHVtbjwvdGl0bGU+PGcgaWQ9Il8yIiBkYXRhLW5hbWU9IjIiPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNS4zIiB5PSIyLjE1IiB3aWR0aD0iNS40IiBoZWlnaHQ9IjExLjciIHJ4PSIxIiByeT0iMSIvPjxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9IjUuNzUiIHkxPSI4IiB4Mj0iMTAuMjUiIHkyPSI4Ii8+PGxpbmUgY2xhc3M9ImNscy0yIiB4MT0iNS43NSIgeTE9IjEwLjciIHgyPSIxMC4yNSIgeTI9IjEwLjciLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik02LDUuODNsMy45LDBWMTNhLjE1LjE1LDAsMCwxLS4xNS4xNUg2LjJBLjE1LjE1LDAsMCwxLDYsMTNWNS44M001LjMsNS4wOFYxM2EuOS45LDAsMCwwLC45LjlIOS44YS45LjksMCwwLDAsLjktLjlWNS4xbC01LjQsMFoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik05LjgsMi45QS4xNS4xNSwwLDAsMSwxMCwzVjVINlYzQS4xNS4xNSwwLDAsMSw2LjIsMi45SDkuOG0wLS43NUg2LjJhLjkuOSwwLDAsMC0uOS45djIuN2g1LjRWM2EuOS45LDAsMCwwLS45LS45WiIvPjwvZz48L3N2Zz4K" crossorigin="anonymous"></div><div class="MuiBox-root jss61"><span data-test="column-name">Classification</span>&nbsp;<span data-test="column-type">text</span></div></div><div class="MuiBox-root jss62"></div></div><div class="MuiBox-root jss63 jss47" data-test="column-row"><div class="MuiBox-root jss64"></div><div class="MuiBox-root jss65 jss48"><div style="padding: 0rem 0.125rem;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2UxZmZmOTt9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6I2FlY2VjODtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjAuNzVweDt9LmNscy0ze2ZpbGw6IzE2YTA4NTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmNvbHVtbjwvdGl0bGU+PGcgaWQ9Il8yIiBkYXRhLW5hbWU9IjIiPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNS4zIiB5PSIyLjE1IiB3aWR0aD0iNS40IiBoZWlnaHQ9IjExLjciIHJ4PSIxIiByeT0iMSIvPjxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9IjUuNzUiIHkxPSI4IiB4Mj0iMTAuMjUiIHkyPSI4Ii8+PGxpbmUgY2xhc3M9ImNscy0yIiB4MT0iNS43NSIgeTE9IjEwLjciIHgyPSIxMC4yNSIgeTI9IjEwLjciLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik02LDUuODNsMy45LDBWMTNhLjE1LjE1LDAsMCwxLS4xNS4xNUg2LjJBLjE1LjE1LDAsMCwxLDYsMTNWNS44M001LjMsNS4wOFYxM2EuOS45LDAsMCwwLC45LjlIOS44YS45LjksMCwwLDAsLjktLjlWNS4xbC01LjQsMFoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik05LjgsMi45QS4xNS4xNSwwLDAsMSwxMCwzVjVINlYzQS4xNS4xNSwwLDAsMSw2LjIsMi45SDkuOG0wLS43NUg2LjJhLjkuOSwwLDAsMC0uOS45djIuN2g1LjRWM2EuOS45LDAsMCwwLS45LS45WiIvPjwvZz48L3N2Zz4K" crossorigin="anonymous"></div><div class="MuiBox-root jss66"><span data-test="column-name">obey</span>&nbsp;<span data-test="column-type">integer</span></div></div><div class="MuiBox-root jss67"></div></div><div class="MuiBox-root jss68 jss47" data-test="column-row"><div class="MuiBox-root jss69"></div><div class="MuiBox-root jss70 jss48"><div style="padding: 0rem 0.125rem;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2UxZmZmOTt9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6I2FlY2VjODtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjAuNzVweDt9LmNscy0ze2ZpbGw6IzE2YTA4NTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmNvbHVtbjwvdGl0bGU+PGcgaWQ9Il8yIiBkYXRhLW5hbWU9IjIiPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNS4zIiB5PSIyLjE1IiB3aWR0aD0iNS40IiBoZWlnaHQ9IjExLjciIHJ4PSIxIiByeT0iMSIvPjxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9IjUuNzUiIHkxPSI4IiB4Mj0iMTAuMjUiIHkyPSI4Ii8+PGxpbmUgY2xhc3M9ImNscy0yIiB4MT0iNS43NSIgeTE9IjEwLjciIHgyPSIxMC4yNSIgeTI9IjEwLjciLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik02LDUuODNsMy45LDBWMTNhLjE1LjE1LDAsMCwxLS4xNS4xNUg2LjJBLjE1LjE1LDAsMCwxLDYsMTNWNS44M001LjMsNS4wOFYxM2EuOS45LDAsMCwwLC45LjlIOS44YS45LjksMCwwLDAsLjktLjlWNS4xbC01LjQsMFoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik05LjgsMi45QS4xNS4xNSwwLDAsMSwxMCwzVjVINlYzQS4xNS4xNSwwLDAsMSw2LjIsMi45SDkuOG0wLS43NUg2LjJhLjkuOSwwLDAsMC0uOS45djIuN2g1LjRWM2EuOS45LDAsMCwwLS45LS45WiIvPjwvZz48L3N2Zz4K" crossorigin="anonymous"></div><div class="MuiBox-root jss71"><span data-test="column-name">reps_lower</span>&nbsp;<span data-test="column-type">integer</span></div></div><div class="MuiBox-root jss72"></div></div><div class="MuiBox-root jss73 jss47" data-test="column-row"><div class="MuiBox-root jss74"></div><div class="MuiBox-root jss75 jss48"><div style="padding: 0rem 0.125rem;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2UxZmZmOTt9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6I2FlY2VjODtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjAuNzVweDt9LmNscy0ze2ZpbGw6IzE2YTA4NTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmNvbHVtbjwvdGl0bGU+PGcgaWQ9Il8yIiBkYXRhLW5hbWU9IjIiPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNS4zIiB5PSIyLjE1IiB3aWR0aD0iNS40IiBoZWlnaHQ9IjExLjciIHJ4PSIxIiByeT0iMSIvPjxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9IjUuNzUiIHkxPSI4IiB4Mj0iMTAuMjUiIHkyPSI4Ii8+PGxpbmUgY2xhc3M9ImNscy0yIiB4MT0iNS43NSIgeTE9IjEwLjciIHgyPSIxMC4yNSIgeTI9IjEwLjciLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik02LDUuODNsMy45LDBWMTNhLjE1LjE1LDAsMCwxLS4xNS4xNUg2LjJBLjE1LjE1LDAsMCwxLDYsMTNWNS44M001LjMsNS4wOFYxM2EuOS45LDAsMCwwLC45LjlIOS44YS45LjksMCwwLDAsLjktLjlWNS4xbC01LjQsMFoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik05LjgsMi45QS4xNS4xNSwwLDAsMSwxMCwzVjVINlYzQS4xNS4xNSwwLDAsMSw2LjIsMi45SDkuOG0wLS43NUg2LjJhLjkuOSwwLDAsMC0uOS45djIuN2g1LjRWM2EuOS45LDAsMCwwLS45LS45WiIvPjwvZz48L3N2Zz4K" crossorigin="anonymous"></div><div class="MuiBox-root jss76"><span data-test="column-name">reps_upper</span>&nbsp;<span data-test="column-type">integer</span></div></div><div class="MuiBox-root jss77"></div></div></div></div></div></div></div></div></div></div>
+<script type="application/javascript">
+                try {
+        require(
+            ['sources/generated/browser_nodes'],
+            function() {
+                require(['sources/generated/erd_tool'], function(module) {
+                window.pgAdmin.Tools.ERD.loadComponent(
+                    document.getElementById('erd-tool-container'), {"trans_id": 2510927, "title": "bda_p1/postgres@BDA_SERVER", "sgid": "1", "sid": "1", "server_type": "pg", "did": "16385", "gen": true, "bgcolor": null, "fgcolor": null, "client_platform": null, "is_desktop_mode": false, "is_linux": true});
+            }, function() {
+                console.log(arguments);
+            });
+        },
+        function() {
+            console.log(arguments);
+        });
+    } catch (err) {
+        console.log(err);
+    }
+</script>
+
+
+<div class="pcr-app " data-theme="monolith" aria-label="color picker dialog" role="window" style="left: 177.047px; top: 34px;">
+          <div class="pcr-selection">
+            <div class="pcr-color-preview">
+              <button type="button" class="pcr-last-color" aria-label="use previous color" style="--pcr-color: rgba(255, 255, 255, 1);"></button>
+              <div class="pcr-current-color" style="--pcr-color: rgba(255, 255, 255, 1);"></div>
+            </div>
+
+            <div class="pcr-color-palette">
+              <div class="pcr-picker" style="left: calc(0% - 9px); top: calc(0% - 9px); background: rgb(255, 255, 255);"></div>
+              <div class="pcr-palette" tabindex="0" aria-label="color selection area" role="listbox" style="background: linear-gradient(to top, rgb(0, 0, 0), transparent), linear-gradient(to left, rgb(255, 0, 0), rgb(255, 255, 255));"></div>
+            </div>
+
+            <div class="pcr-color-chooser">
+              <div class="pcr-picker" style="left: calc(0% - 9px); background-color: rgb(255, 0, 0);"></div>
+              <div class="pcr-hue pcr-slider" tabindex="0" aria-label="hue selection slider" role="slider"></div>
+            </div>
+
+            <div class="pcr-color-opacity" style="display:none" hidden="">
+              <div class="pcr-picker"></div>
+              <div class="pcr-opacity pcr-slider" tabindex="0" aria-label="selection slider" role="slider"></div>
+            </div>
+          </div>
+
+          <div class="pcr-swatches "><button type="button" style="--pcr-color: rgba(0, 0, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(102, 102, 102, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(204, 204, 204, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(255, 255, 255, 1)" aria-label="color swatch" class="pcr-active"></button><button type="button" style="--pcr-color: rgba(255, 153, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(255, 255, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(0, 255, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(255, 0, 255, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(244, 204, 204, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(252, 229, 205, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(208, 224, 227, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(207, 226, 243, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(234, 209, 220, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(234, 153, 153, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(182, 215, 168, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(162, 196, 201, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(213, 166, 189, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(224, 102, 102, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(147, 196, 125, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(118, 165, 175, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(194, 123, 160, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(241, 194, 50, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(106, 168, 79, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(69, 129, 142, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(166, 77, 121, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(191, 144, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(12, 52, 61, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(76, 17, 48, 1)" aria-label="color swatch"></button></div>
+
+          <div class="pcr-interaction">
+            <input class="pcr-result" type="text" spellcheck="false" style="display:none" hidden="" aria-label="color input field">
+
+            <input class="pcr-type active" data-type="HEXA" value="HEXA" type="button" style="display:none" hidden="">
+            <input class="pcr-type" data-type="RGBA" value="RGBA" type="button" style="display:none" hidden="">
+            <input class="pcr-type" data-type="HSLA" value="HSLA" type="button" style="display:none" hidden="">
+            <input class="pcr-type" data-type="HSVA" value="HSVA" type="button" style="display:none" hidden="">
+            <input class="pcr-type" data-type="CMYK" value="CMYK" type="button" style="display:none" hidden="">
+
+            <input class="pcr-save" value="Save" type="button" aria-label="save and close">
+            <input class="pcr-cancel" value="Cancel" type="button" style="display:none" hidden="" aria-label="cancel and close">
+            <input class="pcr-clear" value="Clear" type="button" aria-label="clear and close">
+          </div>
+        </div><div class="pcr-app " data-theme="monolith" aria-label="color picker dialog" role="window" style="left: 210.047px; top: 34px;">
+          <div class="pcr-selection">
+            <div class="pcr-color-preview">
+              <button type="button" class="pcr-last-color" aria-label="use previous color" style="--pcr-color: rgba(34, 34, 34, 1);"></button>
+              <div class="pcr-current-color" style="--pcr-color: rgba(34, 34, 34, 1);"></div>
+            </div>
+
+            <div class="pcr-color-palette">
+              <div class="pcr-picker" style="left: calc(0% - 9px); top: calc(86.6667% - 9px); background: rgb(34, 34, 34);"></div>
+              <div class="pcr-palette" tabindex="0" aria-label="color selection area" role="listbox" style="background: linear-gradient(to top, rgb(0, 0, 0), transparent), linear-gradient(to left, rgb(255, 0, 0), rgb(255, 255, 255));"></div>
+            </div>
+
+            <div class="pcr-color-chooser">
+              <div class="pcr-picker" style="left: calc(0% - 9px); background-color: rgb(255, 0, 0);"></div>
+              <div class="pcr-hue pcr-slider" tabindex="0" aria-label="hue selection slider" role="slider"></div>
+            </div>
+
+            <div class="pcr-color-opacity" style="display:none" hidden="">
+              <div class="pcr-picker"></div>
+              <div class="pcr-opacity pcr-slider" tabindex="0" aria-label="selection slider" role="slider"></div>
+            </div>
+          </div>
+
+          <div class="pcr-swatches "><button type="button" style="--pcr-color: rgba(0, 0, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(102, 102, 102, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(204, 204, 204, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(255, 255, 255, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(255, 153, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(255, 255, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(0, 255, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(255, 0, 255, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(244, 204, 204, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(252, 229, 205, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(208, 224, 227, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(207, 226, 243, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(234, 209, 220, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(234, 153, 153, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(182, 215, 168, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(162, 196, 201, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(213, 166, 189, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(224, 102, 102, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(147, 196, 125, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(118, 165, 175, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(194, 123, 160, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(241, 194, 50, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(106, 168, 79, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(69, 129, 142, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(166, 77, 121, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(191, 144, 0, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(12, 52, 61, 1)" aria-label="color swatch"></button><button type="button" style="--pcr-color: rgba(76, 17, 48, 1)" aria-label="color swatch"></button></div>
+
+          <div class="pcr-interaction">
+            <input class="pcr-result" type="text" spellcheck="false" style="display:none" hidden="" aria-label="color input field">
+
+            <input class="pcr-type active" data-type="HEXA" value="HEXA" type="button" style="display:none" hidden="">
+            <input class="pcr-type" data-type="RGBA" value="RGBA" type="button" style="display:none" hidden="">
+            <input class="pcr-type" data-type="HSLA" value="HSLA" type="button" style="display:none" hidden="">
+            <input class="pcr-type" data-type="HSVA" value="HSVA" type="button" style="display:none" hidden="">
+            <input class="pcr-type" data-type="CMYK" value="CMYK" type="button" style="display:none" hidden="">
+
+            <input class="pcr-save" value="Save" type="button" aria-label="save and close">
+            <input class="pcr-cancel" value="Cancel" type="button" style="display:none" hidden="" aria-label="cancel and close">
+            <input class="pcr-clear" value="Clear" type="button" aria-label="clear and close">
+          </div>
+        </div></body></html>

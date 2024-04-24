@@ -1,0 +1,2510 @@
+[
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "90 - 120",
+                    "metric": "41 - 54"
+                },
+                "height": {
+                    "imperial": "28 - 34",
+                    "metric": "71 - 86"
+                },
+                "id": 5,
+                "name": "Akbash Dog",
+                "bred_for": "Sheep guarding",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Loyal, Independent, Intelligent, Brave",
+                "origin": "",
+                "reference_image_id": "26pHT3Qk7"
+            }
+        ],
+        "id": "SyfsC19NQ",
+        "url": "https://cdn2.thedogapi.com/images/SyfsC19NQ_1280.jpg",
+        "width": 1100,
+        "height": 733
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 100",
+                    "metric": "29 - 45"
+                },
+                "height": {
+                    "imperial": "23 - 25",
+                    "metric": "58 - 64"
+                },
+                "id": 9,
+                "name": "Alaskan Malamute",
+                "bred_for": "Hauling heavy freight, Sled pulling",
+                "breed_group": "Working",
+                "life_span": "12 - 15 years",
+                "temperament": "Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",
+                "reference_image_id": "dW5UucTIW"
+            }
+        ],
+        "id": "rJqd1ecV7",
+        "url": "https://cdn2.thedogapi.com/images/rJqd1ecV7_1280.jpg",
+        "width": 300,
+        "height": 304
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "48 - 55",
+                    "metric": "22 - 25"
+                },
+                "height": {
+                    "imperial": "20 - 22",
+                    "metric": "51 - 56"
+                },
+                "id": 19,
+                "name": "Appenzeller Sennenhund",
+                "bred_for": "Herding livestock, pulling carts, and guarding the farm",
+                "life_span": "12 \u2013 14 years",
+                "temperament": "Reliable, Fearless, Energetic, Lively, Self-assured",
+                "reference_image_id": "HkNkxlqEX"
+            }
+        ],
+        "id": "HkNkxlqEX",
+        "url": "https://cdn2.thedogapi.com/images/HkNkxlqEX_1280.jpg",
+        "width": 400,
+        "height": 600
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 35",
+                    "metric": "9 - 16"
+                },
+                "height": {
+                    "imperial": "13 - 15",
+                    "metric": "33 - 38"
+                },
+                "id": 31,
+                "name": "Beagle",
+                "bred_for": "Rabbit, hare hunting",
+                "breed_group": "Hound",
+                "life_span": "13 - 16 years",
+                "temperament": "Amiable, Even Tempered, Excitable, Determined, Gentle, Intelligent",
+                "reference_image_id": "Syd4xxqEm"
+            }
+        ],
+        "id": "Syd4xxqEm",
+        "url": "https://cdn2.thedogapi.com/images/Syd4xxqEm_1280.jpg",
+        "width": 1000,
+        "height": 667
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "110 - 200",
+                    "metric": "50 - 91"
+                },
+                "height": {
+                    "imperial": "22 - 27",
+                    "metric": "56 - 69"
+                },
+                "id": 48,
+                "name": "Boerboel",
+                "bred_for": "Guarding the homestead, farm work.",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Obedient, Confident, Intelligent, Dominant, Territorial",
+                "reference_image_id": "HyOjge5Vm"
+            }
+        ],
+        "id": "HyOjge5Vm",
+        "url": "https://cdn2.thedogapi.com/images/HyOjge5Vm_1280.jpg",
+        "width": 1200,
+        "height": 669
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "50 - 70",
+                    "metric": "23 - 32"
+                },
+                "height": {
+                    "imperial": "21.5 - 25",
+                    "metric": "55 - 64"
+                },
+                "id": 55,
+                "name": "Boxer",
+                "bred_for": "Bull-baiting, guardian",
+                "breed_group": "Working",
+                "life_span": "8 - 10 years",
+                "temperament": "Devoted, Fearless, Friendly, Cheerful, Energetic, Loyal, Playful, Confident, Intelligent, Bright, Brave, Calm",
+                "reference_image_id": "ry1kWe5VQ"
+            }
+        ],
+        "id": "ry1kWe5VQ",
+        "url": "https://cdn2.thedogapi.com/images/ry1kWe5VQ_1280.jpg",
+        "width": 645,
+        "height": 430
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 45",
+                    "metric": "14 - 20"
+                },
+                "height": {
+                    "imperial": "17.5 - 20.5",
+                    "metric": "44 - 52"
+                },
+                "id": 59,
+                "name": "Brittany",
+                "bred_for": "Pointing, retrieving",
+                "breed_group": "Sporting",
+                "life_span": "12 - 14 years",
+                "temperament": "Agile, Adaptable, Quick, Intelligent, Attentive, Happy",
+                "reference_image_id": "HJWZZxc4X"
+            }
+        ],
+        "id": "HJWZZxc4X",
+        "url": "https://cdn2.thedogapi.com/images/HJWZZxc4X_1280.jpg",
+        "width": 900,
+        "height": 600
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "45 - 60",
+                    "metric": "20 - 27"
+                },
+                "height": {
+                    "imperial": "18 - 20",
+                    "metric": "46 - 51"
+                },
+                "id": 79,
+                "name": "Chinese Shar-Pei",
+                "bred_for": "Fighting",
+                "breed_group": "Non-Sporting",
+                "life_span": "10 years",
+                "temperament": "Suspicious, Affectionate, Devoted, Reserved, Independent, Loving",
+                "reference_image_id": "B1ruWl94Q"
+            }
+        ],
+        "id": "B1ruWl94Q",
+        "url": "https://cdn2.thedogapi.com/images/B1ruWl94Q_1280.jpg",
+        "width": 1049,
+        "height": 761
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "40 - 70",
+                    "metric": "18 - 32"
+                },
+                "height": {
+                    "imperial": "17 - 20",
+                    "metric": "43 - 51"
+                },
+                "id": 81,
+                "name": "Chow Chow",
+                "bred_for": "Guardian, cart pulling, hunting",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Aloof, Loyal, Independent, Quiet",
+                "reference_image_id": "ry8KWgqEQ"
+            }
+        ],
+        "id": "ry8KWgqEQ",
+        "url": "https://cdn2.thedogapi.com/images/ry8KWgqEQ_1280.jpg",
+        "width": 1010,
+        "height": 673
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "66 - 88",
+                    "metric": "30 - 40"
+                },
+                "height": {
+                    "imperial": "24 - 28",
+                    "metric": "61 - 71"
+                },
+                "id": 94,
+                "name": "Doberman Pinscher",
+                "bred_for": "Guardian",
+                "breed_group": "Working",
+                "life_span": "10 years",
+                "temperament": "Fearless, Energetic, Alert, Loyal, Obedient, Confident, Intelligent",
+                "reference_image_id": "HyL3bl94Q"
+            }
+        ],
+        "id": "HyL3bl94Q",
+        "url": "https://cdn2.thedogapi.com/images/HyL3bl94Q_1280.jpg",
+        "width": 1140,
+        "height": 640
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "44 - 66",
+                    "metric": "20 - 30"
+                },
+                "height": {
+                    "imperial": "18 - 23",
+                    "metric": "46 - 58"
+                },
+                "id": 102,
+                "name": "English Shepherd",
+                "bred_for": "Herding & guarding livestock, farm watch dog",
+                "breed_group": "Working",
+                "life_span": "10 - 13 years",
+                "temperament": "Kind, Energetic, Independent, Adaptable, Intelligent, Bossy",
+                "reference_image_id": "H1QyMe5EQ"
+            }
+        ],
+        "id": "H1QyMe5EQ",
+        "url": "https://cdn2.thedogapi.com/images/H1QyMe5EQ_1280.jpg",
+        "width": 1920,
+        "height": 1280
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "40 - 70",
+                    "metric": "18 - 32"
+                },
+                "height": {
+                    "imperial": "20.5 - 23.5",
+                    "metric": "52 - 60"
+                },
+                "id": 107,
+                "name": "Eurasier",
+                "bred_for": "Companionship",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 14 years",
+                "temperament": "Alert, Reserved, Intelligent, Even Tempered, Watchful, Calm",
+                "reference_image_id": "S1VWGx9Nm"
+            }
+        ],
+        "id": "S1VWGx9Nm",
+        "url": "https://cdn2.thedogapi.com/images/S1VWGx9Nm_1280.jpg",
+        "width": 800,
+        "height": 532
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "35 - 50",
+                    "metric": "16 - 23"
+                },
+                "height": {
+                    "imperial": "17 - 18",
+                    "metric": "43 - 46"
+                },
+                "id": 108,
+                "name": "Field Spaniel",
+                "bred_for": "Bird flushing, retrieving",
+                "breed_group": "Sporting",
+                "life_span": "11 - 15 years",
+                "temperament": "Docile, Cautious, Sociable, Sensitive, Adaptable, Familial",
+                "reference_image_id": "SkJfGecE7"
+            }
+        ],
+        "id": "SkJfGecE7",
+        "url": "https://cdn2.thedogapi.com/images/SkJfGecE7_1280.jpg",
+        "width": 1280,
+        "height": 906
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "110 - 190",
+                    "metric": "50 - 86"
+                },
+                "height": {
+                    "imperial": "28 - 32",
+                    "metric": "71 - 81"
+                },
+                "id": 124,
+                "name": "Great Dane",
+                "bred_for": "Hunting & holding boars, Guardian",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Devoted, Reserved, Gentle, Confident, Loving",
+                "reference_image_id": "B1Edfl9NX"
+            }
+        ],
+        "id": "B1Edfl9NX",
+        "url": "https://cdn2.thedogapi.com/images/B1Edfl9NX_1280.jpg",
+        "width": 800,
+        "height": 732
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "55 - 80",
+                    "metric": "25 - 36"
+                },
+                "height": {
+                    "imperial": "21.5 - 24.5",
+                    "metric": "55 - 62"
+                },
+                "id": 149,
+                "name": "Labrador Retriever",
+                "bred_for": "Water retrieving",
+                "breed_group": "Sporting",
+                "life_span": "10 - 13 years",
+                "temperament": "Kind, Outgoing, Agile, Gentle, Intelligent, Trusting, Even Tempered",
+                "reference_image_id": "B1uW7l5VX"
+            }
+        ],
+        "id": "B1uW7l5VX",
+        "url": "https://cdn2.thedogapi.com/images/B1uW7l5VX_1280.jpg",
+        "width": 992,
+        "height": 667
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "120 - 230",
+                    "metric": "54 - 104"
+                },
+                "height": {
+                    "imperial": "27.5 - 30",
+                    "metric": "70 - 76"
+                },
+                "id": 164,
+                "name": "Mastiff",
+                "bred_for": "Guardian",
+                "breed_group": "Working",
+                "life_span": "8 - 10 years",
+                "temperament": "Good-natured, Affectionate, Dignified, Protective, Calm, Courageous"
+            }
+        ],
+        "id": "HkAVQl9VX",
+        "url": "https://cdn2.thedogapi.com/images/HkAVQl9VX_1280.jpg",
+        "width": 800,
+        "height": 590
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 \u2013 85",
+                    "metric": "NaN"
+                },
+                "height": {
+                    "imperial": "15 - 19",
+                    "metric": "38 - 48"
+                },
+                "id": 179,
+                "name": "Olde English Bulldogge",
+                "life_span": "9 \u2013 14 years",
+                "temperament": "Friendly, Alert, Confident, Loving, Courageous, Strong",
+                "reference_image_id": "B1d5me547"
+            }
+        ],
+        "id": "B1d5me547",
+        "url": "https://cdn2.thedogapi.com/images/B1d5me547_1280.jpg",
+        "width": 554,
+        "height": 546
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "14",
+                    "metric": "6"
+                },
+                "height": {
+                    "imperial": "6 - 9",
+                    "metric": "15 - 23"
+                },
+                "id": 183,
+                "name": "Pekingese",
+                "bred_for": "Lapdog",
+                "breed_group": "Toy",
+                "life_span": "14 - 18 years",
+                "temperament": "Opinionated, Good-natured, Stubborn, Affectionate, Aggressive, Intelligent",
+                "reference_image_id": "ByIiml9Nm"
+            }
+        ],
+        "id": "ByIiml9Nm",
+        "url": "https://cdn2.thedogapi.com/images/ByIiml9Nm_1280.jpg",
+        "width": 960,
+        "height": 640
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "8 - 25",
+                    "metric": "4 - 11"
+                },
+                "height": {
+                    "imperial": "10 - 13",
+                    "metric": "25 - 33"
+                },
+                "id": 207,
+                "name": "Rat Terrier",
+                "breed_group": "Terrier",
+                "life_span": "12 - 18 years",
+                "temperament": "Affectionate, Lively, Inquisitive, Alert, Intelligent, Loving",
+                "reference_image_id": "HkXWNl9E7"
+            }
+        ],
+        "id": "HkXWNl9E7",
+        "url": "https://cdn2.thedogapi.com/images/HkXWNl9E7_1280.jpg",
+        "width": 825,
+        "height": 689
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "45 - 80",
+                    "metric": "20 - 36"
+                },
+                "height": {
+                    "imperial": "21 - 27",
+                    "metric": "53 - 69"
+                },
+                "id": 208,
+                "name": "Redbone Coonhound",
+                "bred_for": "Hunting raccoon, deer, bear, and cougar.",
+                "breed_group": "Hound",
+                "life_span": "10 - 12 years",
+                "temperament": "Affectionate, Energetic, Independent, Companionable, Familial, Unflappable",
+                "reference_image_id": "HJMzEl5N7"
+            }
+        ],
+        "id": "HJMzEl5N7",
+        "url": "https://cdn2.thedogapi.com/images/HJMzEl5N7_1280.jpg",
+        "width": 1537,
+        "height": 1323
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "50 - 60",
+                    "metric": "23 - 27"
+                },
+                "height": {
+                    "imperial": "19 - 23.5",
+                    "metric": "48 - 60"
+                },
+                "id": 214,
+                "name": "Samoyed",
+                "bred_for": "Herding reindeer, guardian, draft",
+                "breed_group": "Working",
+                "life_span": "12 - 14 years",
+                "temperament": "Stubborn, Friendly, Sociable, Lively, Alert, Playful",
+                "reference_image_id": "S1T8Ee9Nm"
+            }
+        ],
+        "id": "S1T8Ee9Nm",
+        "url": "https://cdn2.thedogapi.com/images/S1T8Ee9Nm_1280.jpg",
+        "width": 1200,
+        "height": 797
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "70 - 130",
+                    "metric": "32 - 59"
+                },
+                "height": {
+                    "imperial": "28 - 32",
+                    "metric": "71 - 81"
+                },
+                "id": 218,
+                "name": "Scottish Deerhound",
+                "bred_for": "Coursing deer",
+                "breed_group": "Hound",
+                "life_span": "8 - 10 years",
+                "temperament": "Docile, Friendly, Dignified, Gentle",
+                "reference_image_id": "SkNjqx9NQ"
+            }
+        ],
+        "id": "SkNjqx9NQ",
+        "url": "https://cdn2.thedogapi.com/images/SkNjqx9NQ_1280.jpg",
+        "width": 700,
+        "height": 480
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "9 - 16",
+                    "metric": "4 - 7"
+                },
+                "height": {
+                    "imperial": "8 - 11",
+                    "metric": "20 - 28"
+                },
+                "id": 223,
+                "name": "Shih Tzu",
+                "bred_for": "Lapdog",
+                "breed_group": "Toy",
+                "life_span": "10 - 18 years",
+                "temperament": "Clever, Spunky, Outgoing, Friendly, Affectionate, Lively, Alert, Loyal, Independent, Playful, Gentle, Intelligent, Happy, Active, Courageous",
+                "reference_image_id": "BkrJjgcV7"
+            }
+        ],
+        "id": "BkrJjgcV7",
+        "url": "https://cdn2.thedogapi.com/images/BkrJjgcV7_1280.jpg",
+        "width": 800,
+        "height": 600
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 50",
+                    "metric": "14 - 23"
+                },
+                "height": {
+                    "imperial": "16 - 20",
+                    "metric": "41 - 51"
+                },
+                "id": 235,
+                "name": "Spanish Water Dog",
+                "bred_for": "Herding flocks of sheep and goats from one pasture to another",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Trainable, Diligent, Affectionate, Loyal, Athletic, Intelligent",
+                "reference_image_id": "HJf4jl9VX"
+            }
+        ],
+        "id": "HJf4jl9VX",
+        "url": "https://cdn2.thedogapi.com/images/HJf4jl9VX_1280.jpg",
+        "width": 1200,
+        "height": 922
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "55 - 90",
+                    "metric": "25 - 41"
+                },
+                "height": {
+                    "imperial": "23 - 27",
+                    "metric": "58 - 69"
+                },
+                "id": 253,
+                "name": "Weimaraner",
+                "bred_for": "Large game trailing and versatile gundog",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Steady, Aloof, Stubborn, Energetic, Alert, Intelligent, Powerful, Fast",
+                "reference_image_id": "SyU12l9V7"
+            }
+        ],
+        "id": "SyU12l9V7",
+        "url": "https://cdn2.thedogapi.com/images/SyU12l9V7_1280.jpg",
+        "width": 901,
+        "height": 954
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "15 - 22",
+                    "metric": "7 - 10"
+                },
+                "height": {
+                    "imperial": "10 - 11",
+                    "metric": "25 - 28"
+                },
+                "id": 256,
+                "name": "West Highland White Terrier",
+                "bred_for": "Fox, badger, vermin hunting",
+                "breed_group": "Terrier",
+                "life_span": "15 - 20 years",
+                "temperament": "Hardy, Friendly, Alert, Independent, Gay, Active, Courageous",
+                "reference_image_id": "Bkdx2g5Em"
+            }
+        ],
+        "id": "Bkdx2g5Em",
+        "url": "https://cdn2.thedogapi.com/images/Bkdx2g5Em_1280.jpg",
+        "width": 1065,
+        "height": 1032
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "90 - 120",
+                    "metric": "41 - 54"
+                },
+                "height": {
+                    "imperial": "28 - 34",
+                    "metric": "71 - 86"
+                },
+                "id": 5,
+                "name": "Akbash Dog",
+                "bred_for": "Sheep guarding",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Loyal, Independent, Intelligent, Brave",
+                "origin": "",
+                "reference_image_id": "26pHT3Qk7"
+            }
+        ],
+        "id": "GYC8Oeux6",
+        "url": "https://cdn2.thedogapi.com/images/GYC8Oeux6.jpg",
+        "width": 800,
+        "height": 533
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "90 - 120",
+                    "metric": "41 - 54"
+                },
+                "height": {
+                    "imperial": "28 - 34",
+                    "metric": "71 - 86"
+                },
+                "id": 5,
+                "name": "Akbash Dog",
+                "bred_for": "Sheep guarding",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Loyal, Independent, Intelligent, Brave",
+                "origin": "",
+                "reference_image_id": "26pHT3Qk7"
+            }
+        ],
+        "id": "QIZB_XEt5",
+        "url": "https://cdn2.thedogapi.com/images/QIZB_XEt5.jpg",
+        "width": 1600,
+        "height": 1119
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "90 - 120",
+                    "metric": "41 - 54"
+                },
+                "height": {
+                    "imperial": "28 - 34",
+                    "metric": "71 - 86"
+                },
+                "id": 5,
+                "name": "Akbash Dog",
+                "bred_for": "Sheep guarding",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Loyal, Independent, Intelligent, Brave",
+                "origin": "",
+                "reference_image_id": "26pHT3Qk7"
+            }
+        ],
+        "id": "26pHT3Qk7",
+        "url": "https://cdn2.thedogapi.com/images/26pHT3Qk7.jpg",
+        "width": 600,
+        "height": 471
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "90 - 120",
+                    "metric": "41 - 54"
+                },
+                "height": {
+                    "imperial": "28 - 34",
+                    "metric": "71 - 86"
+                },
+                "id": 5,
+                "name": "Akbash Dog",
+                "bred_for": "Sheep guarding",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Loyal, Independent, Intelligent, Brave",
+                "origin": "",
+                "reference_image_id": "26pHT3Qk7"
+            }
+        ],
+        "id": "WVawT4Gap",
+        "url": "https://cdn2.thedogapi.com/images/WVawT4Gap.jpg",
+        "width": 1600,
+        "height": 1067
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 100",
+                    "metric": "29 - 45"
+                },
+                "height": {
+                    "imperial": "23 - 25",
+                    "metric": "58 - 64"
+                },
+                "id": 9,
+                "name": "Alaskan Malamute",
+                "bred_for": "Hauling heavy freight, Sled pulling",
+                "breed_group": "Working",
+                "life_span": "12 - 15 years",
+                "temperament": "Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",
+                "reference_image_id": "dW5UucTIW"
+            }
+        ],
+        "id": "aREFAmi5H",
+        "url": "https://cdn2.thedogapi.com/images/aREFAmi5H.jpg",
+        "width": 1080,
+        "height": 731
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 100",
+                    "metric": "29 - 45"
+                },
+                "height": {
+                    "imperial": "23 - 25",
+                    "metric": "58 - 64"
+                },
+                "id": 9,
+                "name": "Alaskan Malamute",
+                "bred_for": "Hauling heavy freight, Sled pulling",
+                "breed_group": "Working",
+                "life_span": "12 - 15 years",
+                "temperament": "Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",
+                "reference_image_id": "dW5UucTIW"
+            }
+        ],
+        "id": "zEQtlI8h1",
+        "url": "https://cdn2.thedogapi.com/images/zEQtlI8h1.jpg",
+        "width": 960,
+        "height": 668
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 100",
+                    "metric": "29 - 45"
+                },
+                "height": {
+                    "imperial": "23 - 25",
+                    "metric": "58 - 64"
+                },
+                "id": 9,
+                "name": "Alaskan Malamute",
+                "bred_for": "Hauling heavy freight, Sled pulling",
+                "breed_group": "Working",
+                "life_span": "12 - 15 years",
+                "temperament": "Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",
+                "reference_image_id": "dW5UucTIW"
+            }
+        ],
+        "id": "8ogZCsDcp",
+        "url": "https://cdn2.thedogapi.com/images/8ogZCsDcp.jpg",
+        "width": 1200,
+        "height": 900
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "60 - 120",
+                    "metric": "27 - 54"
+                },
+                "height": {
+                    "imperial": "22 - 27",
+                    "metric": "56 - 69"
+                },
+                "id": 10,
+                "name": "American Bulldog",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Friendly, Assertive, Energetic, Loyal, Gentle, Confident, Dominant",
+                "reference_image_id": "pk1AAdloG"
+            }
+        ],
+        "id": "r9CSG0CWk",
+        "url": "https://cdn2.thedogapi.com/images/r9CSG0CWk.jpg",
+        "width": 1199,
+        "height": 796
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "60 - 120",
+                    "metric": "27 - 54"
+                },
+                "height": {
+                    "imperial": "22 - 27",
+                    "metric": "56 - 69"
+                },
+                "id": 10,
+                "name": "American Bulldog",
+                "breed_group": "Working",
+                "life_span": "10 - 12 years",
+                "temperament": "Friendly, Assertive, Energetic, Loyal, Gentle, Confident, Dominant",
+                "reference_image_id": "pk1AAdloG"
+            }
+        ],
+        "id": "iIgf9U3bv",
+        "url": "https://cdn2.thedogapi.com/images/iIgf9U3bv.jpg",
+        "width": 1317,
+        "height": 1285
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 150",
+                    "metric": "14 - 68"
+                },
+                "height": {
+                    "imperial": "14 - 17",
+                    "metric": "36 - 43"
+                },
+                "id": 11,
+                "name": "American Bully",
+                "country_code": "US",
+                "bred_for": "Family companion dog",
+                "breed_group": "",
+                "life_span": "8 \u2013 15 years",
+                "temperament": "Strong Willed, Stubborn, Friendly, Clownish, Affectionate, Loyal, Obedient, Intelligent, Courageous",
+                "reference_image_id": "sqQJDtbpY"
+            }
+        ],
+        "id": "Vsyiy9oyS",
+        "url": "https://cdn2.thedogapi.com/images/Vsyiy9oyS.jpg",
+        "width": 1200,
+        "height": 1056
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 150",
+                    "metric": "14 - 68"
+                },
+                "height": {
+                    "imperial": "14 - 17",
+                    "metric": "36 - 43"
+                },
+                "id": 11,
+                "name": "American Bully",
+                "country_code": "US",
+                "bred_for": "Family companion dog",
+                "breed_group": "",
+                "life_span": "8 \u2013 15 years",
+                "temperament": "Strong Willed, Stubborn, Friendly, Clownish, Affectionate, Loyal, Obedient, Intelligent, Courageous",
+                "reference_image_id": "sqQJDtbpY"
+            }
+        ],
+        "id": "cEt0LCueL",
+        "url": "https://cdn2.thedogapi.com/images/cEt0LCueL.jpg",
+        "width": 1280,
+        "height": 720
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 40",
+                    "metric": "9 - 18"
+                },
+                "height": {
+                    "imperial": "15 - 19",
+                    "metric": "38 - 48"
+                },
+                "id": 12,
+                "name": "American Eskimo Dog",
+                "country_code": "US",
+                "bred_for": "Circus performer",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Friendly, Alert, Reserved, Intelligent, Protective",
+                "reference_image_id": "Bymjyec4m"
+            }
+        ],
+        "id": "EB8A5HQHX",
+        "url": "https://cdn2.thedogapi.com/images/EB8A5HQHX.jpg",
+        "width": 1920,
+        "height": 1631
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 75",
+                    "metric": "29 - 34"
+                },
+                "height": {
+                    "imperial": "21 - 28",
+                    "metric": "53 - 71"
+                },
+                "id": 14,
+                "name": "American Foxhound",
+                "country_code": "US",
+                "bred_for": "Fox hunting, scent hound",
+                "breed_group": "Hound",
+                "life_span": "8 - 15 years",
+                "temperament": "Kind, Sweet-Tempered, Loyal, Independent, Intelligent, Loving",
+                "reference_image_id": "S14n1x9NQ"
+            }
+        ],
+        "id": "p4xvDeEpW",
+        "url": "https://cdn2.thedogapi.com/images/p4xvDeEpW.jpg",
+        "width": 680,
+        "height": 453
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 75",
+                    "metric": "29 - 34"
+                },
+                "height": {
+                    "imperial": "21 - 28",
+                    "metric": "53 - 71"
+                },
+                "id": 14,
+                "name": "American Foxhound",
+                "country_code": "US",
+                "bred_for": "Fox hunting, scent hound",
+                "breed_group": "Hound",
+                "life_span": "8 - 15 years",
+                "temperament": "Kind, Sweet-Tempered, Loyal, Independent, Intelligent, Loving",
+                "reference_image_id": "S14n1x9NQ"
+            }
+        ],
+        "id": "uISezUGDV",
+        "url": "https://cdn2.thedogapi.com/images/uISezUGDV.jpg",
+        "width": 850,
+        "height": 546
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "6 - 13",
+                    "metric": "3 - 6"
+                },
+                "height": {
+                    "imperial": "9 - 11.5",
+                    "metric": "23 - 29"
+                },
+                "id": 1,
+                "name": "Affenpinscher",
+                "bred_for": "Small rodent hunting, lapdog",
+                "breed_group": "Toy",
+                "life_span": "10 - 12 years",
+                "temperament": "Stubborn, Curious, Playful, Adventurous, Active, Fun-loving",
+                "origin": "Germany, France",
+                "reference_image_id": "BJa4kxc4X"
+            }
+        ],
+        "id": "0LJiOVlxp",
+        "url": "https://cdn2.thedogapi.com/images/0LJiOVlxp.jpg",
+        "width": 2048,
+        "height": 1880
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "44 - 66",
+                    "metric": "20 - 30"
+                },
+                "height": {
+                    "imperial": "30",
+                    "metric": "76"
+                },
+                "id": 3,
+                "name": "African Hunting Dog",
+                "bred_for": "A wild pack animal",
+                "life_span": "11 years",
+                "temperament": "Wild, Hardworking, Dutiful",
+                "origin": "",
+                "reference_image_id": "rkiByec47"
+            }
+        ],
+        "id": "Z8LiOtceX",
+        "url": "https://cdn2.thedogapi.com/images/Z8LiOtceX.jpg",
+        "width": 600,
+        "height": 396
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 115",
+                    "metric": "29 - 52"
+                },
+                "height": {
+                    "imperial": "24 - 28",
+                    "metric": "61 - 71"
+                },
+                "id": 6,
+                "name": "Akita",
+                "bred_for": "Hunting bears",
+                "breed_group": "Working",
+                "life_span": "10 - 14 years",
+                "temperament": "Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous",
+                "reference_image_id": "BFRYBufpm"
+            }
+        ],
+        "id": "lq5gBjy4s",
+        "url": "https://cdn2.thedogapi.com/images/lq5gBjy4s.jpg",
+        "width": 1024,
+        "height": 731
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "65 - 115",
+                    "metric": "29 - 52"
+                },
+                "height": {
+                    "imperial": "24 - 28",
+                    "metric": "61 - 71"
+                },
+                "id": 6,
+                "name": "Akita",
+                "bred_for": "Hunting bears",
+                "breed_group": "Working",
+                "life_span": "10 - 14 years",
+                "temperament": "Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous",
+                "reference_image_id": "BFRYBufpm"
+            }
+        ],
+        "id": "BFRYBufpm",
+        "url": "https://cdn2.thedogapi.com/images/BFRYBufpm.jpg",
+        "width": 1280,
+        "height": 853
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "55 - 90",
+                    "metric": "25 - 41"
+                },
+                "height": {
+                    "imperial": "18 - 24",
+                    "metric": "46 - 61"
+                },
+                "id": 7,
+                "name": "Alapaha Blue Blood Bulldog",
+                "description": "The Alapaha Blue Blood Bulldog is a well-developed, exaggerated bulldog with a broad head and natural drop ears. The prominent muzzle is covered by loose upper lips. The prominent eyes are set well apart. The Alapaha's coat is relatively short and fairly stiff. Preferred colors are blue merle, brown merle, or red merle all trimmed in white or chocolate and white. Also preferred are the glass eyes (blue) or marble eyes (brown and blue mixed in a single eye). The ears and tail are never trimmed or docked. The body is sturdy and very muscular. The well-muscled hips are narrower than the chest. The straight back is as long as the dog is high at the shoulders. The dewclaws are never removed and the feet are cat-like.",
+                "bred_for": "Guarding",
+                "breed_group": "Mixed",
+                "life_span": "12 - 13 years",
+                "history": "",
+                "temperament": "Loving, Protective, Trainable, Dutiful, Responsible",
+                "reference_image_id": "33mJ-V3RX"
+            }
+        ],
+        "id": "rTwAJOvf4",
+        "url": "https://cdn2.thedogapi.com/images/rTwAJOvf4.jpg",
+        "width": 1014,
+        "height": 954
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "44 - 62",
+                    "metric": "20 - 28"
+                },
+                "height": {
+                    "imperial": "17 - 20",
+                    "metric": "43 - 51"
+                },
+                "id": 21,
+                "name": "Australian Cattle Dog",
+                "country_code": "AU",
+                "bred_for": "Cattle herding, herding trials",
+                "breed_group": "Herding",
+                "life_span": "12 - 14 years",
+                "temperament": "Cautious, Energetic, Loyal, Obedient, Protective, Brave",
+                "reference_image_id": "IBkYVm4v1"
+            }
+        ],
+        "id": "3NC7vIjMR",
+        "url": "https://cdn2.thedogapi.com/images/3NC7vIjMR.jpg",
+        "width": 1080,
+        "height": 1165
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "44 - 62",
+                    "metric": "20 - 28"
+                },
+                "height": {
+                    "imperial": "17 - 20",
+                    "metric": "43 - 51"
+                },
+                "id": 21,
+                "name": "Australian Cattle Dog",
+                "country_code": "AU",
+                "bred_for": "Cattle herding, herding trials",
+                "breed_group": "Herding",
+                "life_span": "12 - 14 years",
+                "temperament": "Cautious, Energetic, Loyal, Obedient, Protective, Brave",
+                "reference_image_id": "IBkYVm4v1"
+            }
+        ],
+        "id": "oTWQDw9C9",
+        "url": "https://cdn2.thedogapi.com/images/oTWQDw9C9.jpg",
+        "width": 1080,
+        "height": 1349
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "45 - 55",
+                    "metric": "20 - 25"
+                },
+                "height": {
+                    "imperial": "20 - 22",
+                    "metric": "51 - 56"
+                },
+                "id": 32,
+                "name": "Bearded Collie",
+                "bred_for": "Sheep herding",
+                "breed_group": "Herding",
+                "life_span": "12 - 14 years",
+                "temperament": "Self-confidence, Hardy, Lively, Alert, Intelligent, Active",
+                "reference_image_id": "A09F4c1qP"
+            }
+        ],
+        "id": "YPDnk0_5g",
+        "url": "https://cdn2.thedogapi.com/images/YPDnk0_5g.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "45 - 55",
+                    "metric": "20 - 25"
+                },
+                "height": {
+                    "imperial": "20 - 22",
+                    "metric": "51 - 56"
+                },
+                "id": 32,
+                "name": "Bearded Collie",
+                "bred_for": "Sheep herding",
+                "breed_group": "Herding",
+                "life_span": "12 - 14 years",
+                "temperament": "Self-confidence, Hardy, Lively, Alert, Intelligent, Active",
+                "reference_image_id": "A09F4c1qP"
+            }
+        ],
+        "id": "_GKG9ahhj",
+        "url": "https://cdn2.thedogapi.com/images/_GKG9ahhj.jpg",
+        "width": 1280,
+        "height": 1600
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "45 - 55",
+                    "metric": "20 - 25"
+                },
+                "height": {
+                    "imperial": "20 - 22",
+                    "metric": "51 - 56"
+                },
+                "id": 32,
+                "name": "Bearded Collie",
+                "bred_for": "Sheep herding",
+                "breed_group": "Herding",
+                "life_span": "12 - 14 years",
+                "temperament": "Self-confidence, Hardy, Lively, Alert, Intelligent, Active",
+                "reference_image_id": "A09F4c1qP"
+            }
+        ],
+        "id": "Mn2A5Urz0",
+        "url": "https://cdn2.thedogapi.com/images/Mn2A5Urz0.jpg",
+        "width": 1280,
+        "height": 960
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 45",
+                    "metric": "14 - 20"
+                },
+                "height": {
+                    "imperial": "18 - 22",
+                    "metric": "46 - 56"
+                },
+                "id": 50,
+                "name": "Border Collie",
+                "bred_for": "Sheep herder",
+                "breed_group": "Herding",
+                "life_span": "12 - 16 years",
+                "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
+                "reference_image_id": "sGQvQUpsp"
+            }
+        ],
+        "id": "SnbUh5ntS",
+        "url": "https://cdn2.thedogapi.com/images/SnbUh5ntS.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 45",
+                    "metric": "14 - 20"
+                },
+                "height": {
+                    "imperial": "18 - 22",
+                    "metric": "46 - 56"
+                },
+                "id": 50,
+                "name": "Border Collie",
+                "bred_for": "Sheep herder",
+                "breed_group": "Herding",
+                "life_span": "12 - 16 years",
+                "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
+                "reference_image_id": "sGQvQUpsp"
+            }
+        ],
+        "id": "iFf6heV3L",
+        "url": "https://cdn2.thedogapi.com/images/iFf6heV3L.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 45",
+                    "metric": "14 - 20"
+                },
+                "height": {
+                    "imperial": "18 - 22",
+                    "metric": "46 - 56"
+                },
+                "id": 50,
+                "name": "Border Collie",
+                "bred_for": "Sheep herder",
+                "breed_group": "Herding",
+                "life_span": "12 - 16 years",
+                "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
+                "reference_image_id": "sGQvQUpsp"
+            }
+        ],
+        "id": "8X9vWcGdt",
+        "url": "https://cdn2.thedogapi.com/images/8X9vWcGdt.jpg",
+        "width": 1280,
+        "height": 853
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 45",
+                    "metric": "14 - 20"
+                },
+                "height": {
+                    "imperial": "18 - 22",
+                    "metric": "46 - 56"
+                },
+                "id": 50,
+                "name": "Border Collie",
+                "bred_for": "Sheep herder",
+                "breed_group": "Herding",
+                "life_span": "12 - 16 years",
+                "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
+                "reference_image_id": "sGQvQUpsp"
+            }
+        ],
+        "id": "BPp0qBhbV",
+        "url": "https://cdn2.thedogapi.com/images/BPp0qBhbV.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 45",
+                    "metric": "14 - 20"
+                },
+                "height": {
+                    "imperial": "18 - 22",
+                    "metric": "46 - 56"
+                },
+                "id": 50,
+                "name": "Border Collie",
+                "bred_for": "Sheep herder",
+                "breed_group": "Herding",
+                "life_span": "12 - 16 years",
+                "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
+                "reference_image_id": "sGQvQUpsp"
+            }
+        ],
+        "id": "NCA5enafW",
+        "url": "https://cdn2.thedogapi.com/images/NCA5enafW.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 45",
+                    "metric": "14 - 20"
+                },
+                "height": {
+                    "imperial": "18 - 22",
+                    "metric": "46 - 56"
+                },
+                "id": 50,
+                "name": "Border Collie",
+                "bred_for": "Sheep herder",
+                "breed_group": "Herding",
+                "life_span": "12 - 16 years",
+                "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
+                "reference_image_id": "sGQvQUpsp"
+            }
+        ],
+        "id": "Ld0_u3Ubg",
+        "url": "https://cdn2.thedogapi.com/images/Ld0_u3Ubg.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "50 - 70",
+                    "metric": "23 - 32"
+                },
+                "height": {
+                    "imperial": "21 - 22",
+                    "metric": "53 - 56"
+                },
+                "id": 61,
+                "name": "Bull Terrier",
+                "bred_for": "Bull baiting, Fighting",
+                "breed_group": "Terrier",
+                "life_span": "10 - 12 years",
+                "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+                "reference_image_id": "VSraIEQGd"
+            }
+        ],
+        "id": "xbI13teuJ",
+        "url": "https://cdn2.thedogapi.com/images/xbI13teuJ.jpg",
+        "width": 1080,
+        "height": 810
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "50 - 70",
+                    "metric": "23 - 32"
+                },
+                "height": {
+                    "imperial": "21 - 22",
+                    "metric": "53 - 56"
+                },
+                "id": 61,
+                "name": "Bull Terrier",
+                "bred_for": "Bull baiting, Fighting",
+                "breed_group": "Terrier",
+                "life_span": "10 - 12 years",
+                "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+                "reference_image_id": "VSraIEQGd"
+            }
+        ],
+        "id": "VSraIEQGd",
+        "url": "https://cdn2.thedogapi.com/images/VSraIEQGd.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "50 - 70",
+                    "metric": "23 - 32"
+                },
+                "height": {
+                    "imperial": "21 - 22",
+                    "metric": "53 - 56"
+                },
+                "id": 61,
+                "name": "Bull Terrier",
+                "bred_for": "Bull baiting, Fighting",
+                "breed_group": "Terrier",
+                "life_span": "10 - 12 years",
+                "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+                "reference_image_id": "VSraIEQGd"
+            }
+        ],
+        "id": "IdxyFpJdv",
+        "url": "https://cdn2.thedogapi.com/images/IdxyFpJdv.jpg",
+        "width": 1080,
+        "height": 1350
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "50 - 70",
+                    "metric": "23 - 32"
+                },
+                "height": {
+                    "imperial": "21 - 22",
+                    "metric": "53 - 56"
+                },
+                "id": 61,
+                "name": "Bull Terrier",
+                "bred_for": "Bull baiting, Fighting",
+                "breed_group": "Terrier",
+                "life_span": "10 - 12 years",
+                "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+                "reference_image_id": "VSraIEQGd"
+            }
+        ],
+        "id": "BwTUNvg4q",
+        "url": "https://cdn2.thedogapi.com/images/BwTUNvg4q.jpg",
+        "width": 1080,
+        "height": 810
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "50 - 70",
+                    "metric": "23 - 32"
+                },
+                "height": {
+                    "imperial": "21 - 22",
+                    "metric": "53 - 56"
+                },
+                "id": 61,
+                "name": "Bull Terrier",
+                "bred_for": "Bull baiting, Fighting",
+                "breed_group": "Terrier",
+                "life_span": "10 - 12 years",
+                "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+                "reference_image_id": "VSraIEQGd"
+            }
+        ],
+        "id": "Tb9dDTBtT",
+        "url": "https://cdn2.thedogapi.com/images/Tb9dDTBtT.jpg",
+        "width": 1080,
+        "height": 927
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "55 - 80",
+                    "metric": "25 - 36"
+                },
+                "height": {
+                    "imperial": "21 - 26",
+                    "metric": "53 - 66"
+                },
+                "id": 76,
+                "name": "Chesapeake Bay Retriever",
+                "bred_for": "Water Retriever",
+                "breed_group": "Sporting",
+                "life_span": "10 - 13 years",
+                "temperament": "Affectionate, Intelligent, Quiet, Dominant, Happy, Protective",
+                "reference_image_id": "9BXwUeCc2"
+            }
+        ],
+        "id": "dBrrpEGm4",
+        "url": "https://cdn2.thedogapi.com/images/dBrrpEGm4.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "55 - 80",
+                    "metric": "25 - 36"
+                },
+                "height": {
+                    "imperial": "21 - 26",
+                    "metric": "53 - 66"
+                },
+                "id": 76,
+                "name": "Chesapeake Bay Retriever",
+                "bred_for": "Water Retriever",
+                "breed_group": "Sporting",
+                "life_span": "10 - 13 years",
+                "temperament": "Affectionate, Intelligent, Quiet, Dominant, Happy, Protective",
+                "reference_image_id": "9BXwUeCc2"
+            }
+        ],
+        "id": "-GnlzQbmR",
+        "url": "https://cdn2.thedogapi.com/images/-GnlzQbmR.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "55 - 80",
+                    "metric": "25 - 36"
+                },
+                "height": {
+                    "imperial": "21 - 26",
+                    "metric": "53 - 66"
+                },
+                "id": 76,
+                "name": "Chesapeake Bay Retriever",
+                "bred_for": "Water Retriever",
+                "breed_group": "Sporting",
+                "life_span": "10 - 13 years",
+                "temperament": "Affectionate, Intelligent, Quiet, Dominant, Happy, Protective",
+                "reference_image_id": "9BXwUeCc2"
+            }
+        ],
+        "id": "KlKFRG3Ko",
+        "url": "https://cdn2.thedogapi.com/images/KlKFRG3Ko.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 15",
+                    "metric": "36 - 38"
+                },
+                "id": 86,
+                "name": "Cocker Spaniel",
+                "bred_for": "Bird flushing, retrieving",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Trainable, Friendly, Affectionate, Playful, Quiet, Faithful",
+                "reference_image_id": "1lFmrzECl"
+            }
+        ],
+        "id": "1lFmrzECl",
+        "url": "https://cdn2.thedogapi.com/images/1lFmrzECl.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 15",
+                    "metric": "36 - 38"
+                },
+                "id": 86,
+                "name": "Cocker Spaniel",
+                "bred_for": "Bird flushing, retrieving",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Trainable, Friendly, Affectionate, Playful, Quiet, Faithful",
+                "reference_image_id": "1lFmrzECl"
+            }
+        ],
+        "id": "Pxdz3FZQt",
+        "url": "https://cdn2.thedogapi.com/images/Pxdz3FZQt.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 15",
+                    "metric": "36 - 38"
+                },
+                "id": 86,
+                "name": "Cocker Spaniel",
+                "bred_for": "Bird flushing, retrieving",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Trainable, Friendly, Affectionate, Playful, Quiet, Faithful",
+                "reference_image_id": "1lFmrzECl"
+            }
+        ],
+        "id": "R1b5gB11p",
+        "url": "https://cdn2.thedogapi.com/images/R1b5gB11p.jpg",
+        "width": 1080,
+        "height": 1350
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 15",
+                    "metric": "36 - 38"
+                },
+                "id": 86,
+                "name": "Cocker Spaniel",
+                "bred_for": "Bird flushing, retrieving",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Trainable, Friendly, Affectionate, Playful, Quiet, Faithful",
+                "reference_image_id": "1lFmrzECl"
+            }
+        ],
+        "id": "gW4R5SWbV",
+        "url": "https://cdn2.thedogapi.com/images/gW4R5SWbV.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "23 - 28",
+                    "metric": "10 - 13"
+                },
+                "height": {
+                    "imperial": "15.5 - 20",
+                    "metric": "39 - 51"
+                },
+                "id": 111,
+                "name": "Finnish Spitz",
+                "bred_for": "Hunting birds, small mammals",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Playful, Loyal, Independent, Intelligent, Happy, Vocal",
+                "reference_image_id": "3PjHlQbkV"
+            }
+        ],
+        "id": "CdiMsSZgT",
+        "url": "https://cdn2.thedogapi.com/images/CdiMsSZgT.jpg",
+        "width": 645,
+        "height": 600
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "23 - 28",
+                    "metric": "10 - 13"
+                },
+                "height": {
+                    "imperial": "15.5 - 20",
+                    "metric": "39 - 51"
+                },
+                "id": 111,
+                "name": "Finnish Spitz",
+                "bred_for": "Hunting birds, small mammals",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Playful, Loyal, Independent, Intelligent, Happy, Vocal",
+                "reference_image_id": "3PjHlQbkV"
+            }
+        ],
+        "id": "hS_-gIE3G",
+        "url": "https://cdn2.thedogapi.com/images/hS_-gIE3G.jpg",
+        "width": 1280,
+        "height": 853
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "23 - 28",
+                    "metric": "10 - 13"
+                },
+                "height": {
+                    "imperial": "15.5 - 20",
+                    "metric": "39 - 51"
+                },
+                "id": 111,
+                "name": "Finnish Spitz",
+                "bred_for": "Hunting birds, small mammals",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Playful, Loyal, Independent, Intelligent, Happy, Vocal",
+                "reference_image_id": "3PjHlQbkV"
+            }
+        ],
+        "id": "7pTie4t9y",
+        "url": "https://cdn2.thedogapi.com/images/7pTie4t9y.jpg",
+        "width": 540,
+        "height": 359
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 16",
+                    "metric": "36 - 41"
+                },
+                "id": 145,
+                "name": "Kooikerhondje",
+                "bred_for": "Luring ducks into traps - \"tolling\"",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+                "reference_image_id": "kOMy84GQE"
+            }
+        ],
+        "id": "tbAyBgK6L",
+        "url": "https://cdn2.thedogapi.com/images/tbAyBgK6L.jpg",
+        "width": 800,
+        "height": 534
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 16",
+                    "metric": "36 - 41"
+                },
+                "id": 145,
+                "name": "Kooikerhondje",
+                "bred_for": "Luring ducks into traps - \"tolling\"",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+                "reference_image_id": "kOMy84GQE"
+            }
+        ],
+        "id": "J4H-oD_7x",
+        "url": "https://cdn2.thedogapi.com/images/J4H-oD_7x.jpg",
+        "width": 533,
+        "height": 800
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 16",
+                    "metric": "36 - 41"
+                },
+                "id": 145,
+                "name": "Kooikerhondje",
+                "bred_for": "Luring ducks into traps - \"tolling\"",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+                "reference_image_id": "kOMy84GQE"
+            }
+        ],
+        "id": "HUp3BZLeW",
+        "url": "https://cdn2.thedogapi.com/images/HUp3BZLeW.jpg",
+        "width": 1280,
+        "height": 719
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 16",
+                    "metric": "36 - 41"
+                },
+                "id": 145,
+                "name": "Kooikerhondje",
+                "bred_for": "Luring ducks into traps - \"tolling\"",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+                "reference_image_id": "kOMy84GQE"
+            }
+        ],
+        "id": "blN4umH0V",
+        "url": "https://cdn2.thedogapi.com/images/blN4umH0V.jpg",
+        "width": 640,
+        "height": 427
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 16",
+                    "metric": "36 - 41"
+                },
+                "id": 145,
+                "name": "Kooikerhondje",
+                "bred_for": "Luring ducks into traps - \"tolling\"",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+                "reference_image_id": "kOMy84GQE"
+            }
+        ],
+        "id": "ooXgHah90",
+        "url": "https://cdn2.thedogapi.com/images/ooXgHah90.jpg",
+        "width": 683,
+        "height": 1024
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 16",
+                    "metric": "36 - 41"
+                },
+                "id": 145,
+                "name": "Kooikerhondje",
+                "bred_for": "Luring ducks into traps - \"tolling\"",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+                "reference_image_id": "kOMy84GQE"
+            }
+        ],
+        "id": "S9a_qUna4",
+        "url": "https://cdn2.thedogapi.com/images/S9a_qUna4.jpg",
+        "width": 1280,
+        "height": 853
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 30",
+                    "metric": "9 - 14"
+                },
+                "height": {
+                    "imperial": "14 - 16",
+                    "metric": "36 - 41"
+                },
+                "id": 145,
+                "name": "Kooikerhondje",
+                "bred_for": "Luring ducks into traps - \"tolling\"",
+                "breed_group": "Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+                "reference_image_id": "kOMy84GQE"
+            }
+        ],
+        "id": "kOMy84GQE",
+        "url": "https://cdn2.thedogapi.com/images/kOMy84GQE.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "130 - 180",
+                    "metric": "59 - 82"
+                },
+                "height": {
+                    "imperial": "25.5 - 27.5",
+                    "metric": "65 - 70"
+                },
+                "id": 212,
+                "name": "Saint Bernard",
+                "bred_for": "Draft, search, rescue",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+                "reference_image_id": "_Qf9nfRzL"
+            }
+        ],
+        "id": "V8hgHJeCp",
+        "url": "https://cdn2.thedogapi.com/images/V8hgHJeCp.jpg",
+        "width": 1080,
+        "height": 810
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "130 - 180",
+                    "metric": "59 - 82"
+                },
+                "height": {
+                    "imperial": "25.5 - 27.5",
+                    "metric": "65 - 70"
+                },
+                "id": 212,
+                "name": "Saint Bernard",
+                "bred_for": "Draft, search, rescue",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+                "reference_image_id": "_Qf9nfRzL"
+            }
+        ],
+        "id": "KjD15MOuM",
+        "url": "https://cdn2.thedogapi.com/images/KjD15MOuM.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "130 - 180",
+                    "metric": "59 - 82"
+                },
+                "height": {
+                    "imperial": "25.5 - 27.5",
+                    "metric": "65 - 70"
+                },
+                "id": 212,
+                "name": "Saint Bernard",
+                "bred_for": "Draft, search, rescue",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+                "reference_image_id": "_Qf9nfRzL"
+            }
+        ],
+        "id": "DArkgQw59",
+        "url": "https://cdn2.thedogapi.com/images/DArkgQw59.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "130 - 180",
+                    "metric": "59 - 82"
+                },
+                "height": {
+                    "imperial": "25.5 - 27.5",
+                    "metric": "65 - 70"
+                },
+                "id": 212,
+                "name": "Saint Bernard",
+                "bred_for": "Draft, search, rescue",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+                "reference_image_id": "_Qf9nfRzL"
+            }
+        ],
+        "id": "ihTQ9wvul",
+        "url": "https://cdn2.thedogapi.com/images/ihTQ9wvul.jpg",
+        "width": 1280,
+        "height": 720
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "130 - 180",
+                    "metric": "59 - 82"
+                },
+                "height": {
+                    "imperial": "25.5 - 27.5",
+                    "metric": "65 - 70"
+                },
+                "id": 212,
+                "name": "Saint Bernard",
+                "bred_for": "Draft, search, rescue",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+                "reference_image_id": "_Qf9nfRzL"
+            }
+        ],
+        "id": "TGB2APNbS",
+        "url": "https://cdn2.thedogapi.com/images/TGB2APNbS.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "130 - 180",
+                    "metric": "59 - 82"
+                },
+                "height": {
+                    "imperial": "25.5 - 27.5",
+                    "metric": "65 - 70"
+                },
+                "id": 212,
+                "name": "Saint Bernard",
+                "bred_for": "Draft, search, rescue",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+                "reference_image_id": "_Qf9nfRzL"
+            }
+        ],
+        "id": "K9nzmg0TL",
+        "url": "https://cdn2.thedogapi.com/images/K9nzmg0TL.jpg",
+        "width": 1080,
+        "height": 1350
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "130 - 180",
+                    "metric": "59 - 82"
+                },
+                "height": {
+                    "imperial": "25.5 - 27.5",
+                    "metric": "65 - 70"
+                },
+                "id": 212,
+                "name": "Saint Bernard",
+                "bred_for": "Draft, search, rescue",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+                "reference_image_id": "_Qf9nfRzL"
+            }
+        ],
+        "id": "pxtkPmg3b",
+        "url": "https://cdn2.thedogapi.com/images/pxtkPmg3b.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "130 - 180",
+                    "metric": "59 - 82"
+                },
+                "height": {
+                    "imperial": "25.5 - 27.5",
+                    "metric": "65 - 70"
+                },
+                "id": 212,
+                "name": "Saint Bernard",
+                "bred_for": "Draft, search, rescue",
+                "breed_group": "Working",
+                "life_span": "7 - 10 years",
+                "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+                "reference_image_id": "_Qf9nfRzL"
+            }
+        ],
+        "id": "6CFLgAYVH",
+        "url": "https://cdn2.thedogapi.com/images/6CFLgAYVH.jpg",
+        "width": 1280,
+        "height": 853
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "35 - 65",
+                    "metric": "16 - 29"
+                },
+                "height": {
+                    "imperial": "23 - 28",
+                    "metric": "58 - 71"
+                },
+                "id": 213,
+                "name": "Saluki",
+                "bred_for": "Coursing gazelle and hare",
+                "breed_group": "Hound",
+                "life_span": "12 - 14 years",
+                "temperament": "Aloof, Reserved, Intelligent, Quiet",
+                "reference_image_id": "fjFIuehNo"
+            }
+        ],
+        "id": "tFQkJi_-6",
+        "url": "https://cdn2.thedogapi.com/images/tFQkJi_-6.jpg",
+        "width": 1280,
+        "height": 960
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "35 - 65",
+                    "metric": "16 - 29"
+                },
+                "height": {
+                    "imperial": "23 - 28",
+                    "metric": "58 - 71"
+                },
+                "id": 213,
+                "name": "Saluki",
+                "bred_for": "Coursing gazelle and hare",
+                "breed_group": "Hound",
+                "life_span": "12 - 14 years",
+                "temperament": "Aloof, Reserved, Intelligent, Quiet",
+                "reference_image_id": "fjFIuehNo"
+            }
+        ],
+        "id": "12GTwG4Bj",
+        "url": "https://cdn2.thedogapi.com/images/12GTwG4Bj.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "35 - 65",
+                    "metric": "16 - 29"
+                },
+                "height": {
+                    "imperial": "23 - 28",
+                    "metric": "58 - 71"
+                },
+                "id": 213,
+                "name": "Saluki",
+                "bred_for": "Coursing gazelle and hare",
+                "breed_group": "Hound",
+                "life_span": "12 - 14 years",
+                "temperament": "Aloof, Reserved, Intelligent, Quiet",
+                "reference_image_id": "fjFIuehNo"
+            }
+        ],
+        "id": "6jNaXEFxv",
+        "url": "https://cdn2.thedogapi.com/images/6jNaXEFxv.jpg",
+        "width": 1080,
+        "height": 720
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "35 - 65",
+                    "metric": "16 - 29"
+                },
+                "height": {
+                    "imperial": "23 - 28",
+                    "metric": "58 - 71"
+                },
+                "id": 213,
+                "name": "Saluki",
+                "bred_for": "Coursing gazelle and hare",
+                "breed_group": "Hound",
+                "life_span": "12 - 14 years",
+                "temperament": "Aloof, Reserved, Intelligent, Quiet",
+                "reference_image_id": "fjFIuehNo"
+            }
+        ],
+        "id": "sHPfcmVsV",
+        "url": "https://cdn2.thedogapi.com/images/sHPfcmVsV.jpg",
+        "width": 1280,
+        "height": 854
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "17 - 23",
+                    "metric": "8 - 10"
+                },
+                "height": {
+                    "imperial": "13.5 - 16.5",
+                    "metric": "34 - 42"
+                },
+                "id": 222,
+                "name": "Shiba Inu",
+                "bred_for": "Hunting in the mountains of Japan, Alert Watchdog",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 16 years",
+                "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+                "reference_image_id": "Zn3IjPX3f"
+            }
+        ],
+        "id": "8Fs-5iUCH",
+        "url": "https://cdn2.thedogapi.com/images/8Fs-5iUCH.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "17 - 23",
+                    "metric": "8 - 10"
+                },
+                "height": {
+                    "imperial": "13.5 - 16.5",
+                    "metric": "34 - 42"
+                },
+                "id": 222,
+                "name": "Shiba Inu",
+                "bred_for": "Hunting in the mountains of Japan, Alert Watchdog",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 16 years",
+                "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+                "reference_image_id": "Zn3IjPX3f"
+            }
+        ],
+        "id": "_LWIQOpXG",
+        "url": "https://cdn2.thedogapi.com/images/_LWIQOpXG.jpg",
+        "width": 1080,
+        "height": 1349
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "17 - 23",
+                    "metric": "8 - 10"
+                },
+                "height": {
+                    "imperial": "13.5 - 16.5",
+                    "metric": "34 - 42"
+                },
+                "id": 222,
+                "name": "Shiba Inu",
+                "bred_for": "Hunting in the mountains of Japan, Alert Watchdog",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 16 years",
+                "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+                "reference_image_id": "Zn3IjPX3f"
+            }
+        ],
+        "id": "duYK7C91Q",
+        "url": "https://cdn2.thedogapi.com/images/duYK7C91Q.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "17 - 23",
+                    "metric": "8 - 10"
+                },
+                "height": {
+                    "imperial": "13.5 - 16.5",
+                    "metric": "34 - 42"
+                },
+                "id": 222,
+                "name": "Shiba Inu",
+                "bred_for": "Hunting in the mountains of Japan, Alert Watchdog",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 16 years",
+                "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+                "reference_image_id": "Zn3IjPX3f"
+            }
+        ],
+        "id": "zXi6Z5ugC",
+        "url": "https://cdn2.thedogapi.com/images/zXi6Z5ugC.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "17 - 23",
+                    "metric": "8 - 10"
+                },
+                "height": {
+                    "imperial": "13.5 - 16.5",
+                    "metric": "34 - 42"
+                },
+                "id": 222,
+                "name": "Shiba Inu",
+                "bred_for": "Hunting in the mountains of Japan, Alert Watchdog",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 16 years",
+                "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+                "reference_image_id": "Zn3IjPX3f"
+            }
+        ],
+        "id": "uW3mbibK4",
+        "url": "https://cdn2.thedogapi.com/images/uW3mbibK4.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "17 - 23",
+                    "metric": "8 - 10"
+                },
+                "height": {
+                    "imperial": "13.5 - 16.5",
+                    "metric": "34 - 42"
+                },
+                "id": 222,
+                "name": "Shiba Inu",
+                "bred_for": "Hunting in the mountains of Japan, Alert Watchdog",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 16 years",
+                "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+                "reference_image_id": "Zn3IjPX3f"
+            }
+        ],
+        "id": "keAvlc5KL",
+        "url": "https://cdn2.thedogapi.com/images/keAvlc5KL.jpg",
+        "width": 1080,
+        "height": 1349
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 24",
+                    "metric": "9 - 11"
+                },
+                "height": {
+                    "imperial": "14 - 17",
+                    "metric": "36 - 43"
+                },
+                "id": 246,
+                "name": "Tibetan Terrier",
+                "bred_for": "Good luck charms, mascots, watchdogs, herding dogs, and companions",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Affectionate, Energetic, Amiable, Reserved, Gentle, Sensitive",
+                "reference_image_id": "6f5n_42mB"
+            }
+        ],
+        "id": "14MaKTcUX",
+        "url": "https://cdn2.thedogapi.com/images/14MaKTcUX.jpg",
+        "width": 640,
+        "height": 640
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "20 - 24",
+                    "metric": "9 - 11"
+                },
+                "height": {
+                    "imperial": "14 - 17",
+                    "metric": "36 - 43"
+                },
+                "id": 246,
+                "name": "Tibetan Terrier",
+                "bred_for": "Good luck charms, mascots, watchdogs, herding dogs, and companions",
+                "breed_group": "Non-Sporting",
+                "life_span": "12 - 15 years",
+                "temperament": "Affectionate, Energetic, Amiable, Reserved, Gentle, Sensitive",
+                "reference_image_id": "6f5n_42mB"
+            }
+        ],
+        "id": "72Ttvx0Iz",
+        "url": "https://cdn2.thedogapi.com/images/72Ttvx0Iz.jpg",
+        "width": 1080,
+        "height": 1080
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 50",
+                    "metric": "14 - 23"
+                },
+                "height": {
+                    "imperial": "17.5 - 19.5",
+                    "metric": "44 - 50"
+                },
+                "id": 239,
+                "name": "Standard Schnauzer",
+                "bred_for": "Ratting, guarding",
+                "breed_group": "Working",
+                "life_span": "13 - 15 years",
+                "temperament": "Trainable, Good-natured, Devoted, Lively, Playful, Intelligent",
+                "reference_image_id": "tmzeu6ID_"
+            }
+        ],
+        "id": "tmzeu6ID_",
+        "url": "https://cdn2.thedogapi.com/images/tmzeu6ID_.jpg",
+        "width": 650,
+        "height": 585
+    },
+    {
+        "breeds": [
+            {
+                "weight": {
+                    "imperial": "30 - 50",
+                    "metric": "14 - 23"
+                },
+                "height": {
+                    "imperial": "17.5 - 19.5",
+                    "metric": "44 - 50"
+                },
+                "id": 239,
+                "name": "Standard Schnauzer",
+                "bred_for": "Ratting, guarding",
+                "breed_group": "Working",
+                "life_span": "13 - 15 years",
+                "temperament": "Trainable, Good-natured, Devoted, Lively, Playful, Intelligent",
+                "reference_image_id": "tmzeu6ID_"
+            }
+        ],
+        "id": "VU6TmJM8z",
+        "url": "https://cdn2.thedogapi.com/images/VU6TmJM8z.jpg",
+        "width": 1280,
+        "height": 853
+    }
+]
