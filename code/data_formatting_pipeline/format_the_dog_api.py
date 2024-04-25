@@ -36,11 +36,11 @@ df = spark.read.json(df)
 Writing dataframe to existing postgres table with variables set in the format we wish them to be...
 """
 
-jdbc_url = "jdbc:postgresql://localhost:5432/bda_p1"
+jdbc_url = "jdbc:postgresql://localhost:5432/bda_project1_db"
 driver_class = "org.postgresql.Driver"
 user = "postgres"
-password = "postgres"
-connectionProperties = {"user": "postgres", "password": "postgres"}
+password = "hola123"
+connectionProperties = {"user": "postgres", "password": "hola123"}
 
 
 df.write \
